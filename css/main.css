@@ -79,17 +79,19 @@ h3 {
 	width: 100%;
 }
 
-.photography {
+.photography-eben,
+.photography-jem,
+.photography-dani {
 	max-width: 600px;
 }
 
 .flex-caption {
 	position: absolute;
-	bottom: 1.5rem;
+	width: 100%;
 	color: #FFF;
-	background-color: rgba(0,0,0,.25);
+	background-color: rgba(0,0,0,.35);
 	margin: 0;
-	padding: 1rem;
+	padding: 1rem 0;
 	text-align: center;
 	font-weight: 100;
 }
