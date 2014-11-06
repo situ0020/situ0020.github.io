@@ -38,16 +38,17 @@ body {
 }
 
 .nav-top[data-state="expanded"] {
-	display: block
+	display: block;
+	list-style-type: none;
 }
 
 .home {
-	background: transparent  url(../img/dani-1.jpg) no-repeat center top;
+	background: transparent  url(../img/background.jpg) no-repeat center top;
 	background-size: cover;
 }
 
 .logo {
-	width: 300px;
+	width: 250px;
 	display: block;
 	margin: auto;
 	padding: 10em 0px; 
