@@ -74,3 +74,38 @@ h2,
 h3 {
 	font-weight: 300;
 }
+
+.slides img {
+	width: 100%;
+}
+
+.photography {
+	max-width: 600px;
+}
+
+.flex-caption {
+	position: absolute;
+	bottom: 1.5rem;
+	color: #FFF;
+	background-color: rgba(0,0,0,.25);
+	margin: 0;
+	padding: 1rem;
+	text-align: center;
+	font-weight: 100;
+}
+
+.flex-direction-nav a {
+	color: white;
+}
+
+.flex-control-paging li a {
+	background: white;
+}
+
+.flex-control-paging li a.flex-active {
+	background: rgba(109,109,109,1);
+}
+
+.flex-control-paging li a:hover {
+	background: rgba(183,183,183,1.00);
+}
