@@ -22,22 +22,25 @@ body {
 }
 
 .nav a,
-.nac a:link,
+.nav a:link,
 .nav a:visited {
 	display: block;
-	position: fixed;
-	padding: 1.25rem;
 	text-align: center;
+	padding: 1em;
 	color: #FFF;
-	background-color: rgba(0,0,0,.5);
+	background-color: rgba(0,0,0,.25);
 	text-decoration: none;
 	border: none;
+}
+
+.nav a:hover,
+.nav a:active {
+	color: rgba(0,0,0,1.00);
 }
 
 .nav-top {
 	display: none;
 	font-weight: 100;
-	
 }
 
 .nav-top[data-state="expanded"] {
