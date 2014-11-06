@@ -8,8 +8,8 @@ body {
 .nav-btn:visited {
 	display: block;
 	position: absolute;
-	top: 25px;
-	right: 5%;
+	top: 30px;
+	right: 30px;
 	height: 40px;
 	width: 40px;
 	background: rgba(0,0,0,0) url('../img/nav-icon.svg') no-repeat center center;
@@ -25,7 +25,8 @@ body {
 .nac a:link,
 .nav a:visited {
 	display: block;
-	padding: 1rem;
+	position: fixed;
+	padding: 1.25rem;
 	text-align: center;
 	color: #FFF;
 	background-color: rgba(0,0,0,.5);
@@ -35,10 +36,19 @@ body {
 
 .nav-top {
 	display: none;
+	font-weight: 100;
+	
 }
 
 .nav-top[data-state="expanded"] {
 	display: block;
+}
+
+.hide-text {
+	display: block;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
 }
 
 .top {
@@ -47,7 +57,7 @@ body {
 }
 
 .logo {
-	width: 300px;
+	width: 240px;
 	display: block;
 	margin: auto;
 	padding: 10em 0px; 
