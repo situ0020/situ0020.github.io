@@ -28,7 +28,7 @@ body {
 	padding: 1rem;
 	text-align: center;
 	color: #FFF;
-	background-color: #000;
+	background-color: rgba(0,0,0,.5);
 	text-decoration: none;
 	border: none;
 }
@@ -39,17 +39,25 @@ body {
 
 .nav-top[data-state="expanded"] {
 	display: block;
-	list-style-type: none;
 }
 
-.home {
+.top {
 	background: transparent  url(../img/background.jpg) no-repeat center top;
 	background-size: cover;
 }
 
 .logo {
-	width: 200px;
+	width: 300px;
 	display: block;
 	margin: auto;
 	padding: 10em 0px; 
+}
+
+h1 {
+	font-weight: 700;
+}
+
+h2,
+h3 {
+	font-weight: 300;
 }
