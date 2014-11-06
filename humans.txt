@@ -1,0 +1,21 @@
+# PEOPLE
+
+Designer: Katie Situ
+E-mail: contact@katiesitu.ca
+Location: Ottawa, Canada
+Website: katiesitu.ca
+Github: http://github.com/katiesitu
+Twitter: @katiesitu
+
+# THANKS
+
+Downloaded Code Thing © Some Person http://codething.com
+Stock Image © Another Person: http://gettyimages.com
+
+# TOOLS
+
+Sublime Text
+Github
+Photoshop
+Dreamweaver
+Hover.com
