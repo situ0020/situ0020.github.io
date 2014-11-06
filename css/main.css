@@ -55,7 +55,7 @@ body {
 }
 
 .top {
-	background: transparent  url(../img/background.jpg) no-repeat center top;
+	background: transparent  url('http://placehold.it/1500x1500') no-repeat center top;
 	background-size: cover;
 }
 
