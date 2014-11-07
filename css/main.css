@@ -1,6 +1,7 @@
 body {
 	font-family: 'Lato', sans-serif;
 	margin: 0;
+	font-weight: 100;
 }
 	
 .nav-btn,
@@ -8,8 +9,8 @@ body {
 .nav-btn:visited {
 	display: block;
 	position: absolute;
-	top: 30px;
-	right: 30px;
+	top: 10px;
+	right: 10px;
 	height: 40px;
 	width: 40px;
 	background: rgba(0,0,0,0) url('../img/nav-icon.svg') no-repeat center center;
@@ -26,11 +27,16 @@ body {
 .nav a:visited {
 	display: block;
 	text-align: center;
-	padding: 1em;
+	padding: 1.5em;
 	color: #FFF;
 	background-color: rgba(0,0,0,.25);
 	text-decoration: none;
 	border: none;
+}
+
+.nav {
+	margin: -1em 0;
+	width: 100%;
 }
 
 .nav a:hover,
@@ -38,9 +44,13 @@ body {
 	color: rgba(0,0,0,1.00);
 }
 
+ul {
+	list-style-type:none;
+	margin-bottom: 0;
+}
+
 .nav-top {
 	display: none;
-	font-weight: 100;
 }
 
 .nav-top[data-state="expanded"] {
@@ -66,14 +76,6 @@ body {
 	padding: 20em 0px; 
 }
 
-h1 {
-	font-weight: 700;
-}
-
-h2,
-h3 {
-	font-weight: 300;
-}
 
 .slides img {
 	width: 100%;
