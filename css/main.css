@@ -154,11 +154,11 @@ li {
 	}
 }
 
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 60em) {
 	.unit-l-1-4 {
 		width: 25%;
 	}
-	.unit-m-1-2 {
+	.unit-l-1-2 {
 		width: 50%;
 	}
 }
