@@ -1,6 +1,9 @@
 body {
 	font-family: 'Lato', sans-serif;
 	margin: 0;
+}
+
+html {
 	font-weight: 100;
 }
 	
@@ -106,4 +109,13 @@ ul {
 
 .flex-control-paging li a:hover {
 	background: rgba(183,183,183,1.00);
+}
+
+.error {
+	text-align: center;
+	background: transparent  url('../img/background.jpg') no-repeat center top;
+	background-size: cover;
+	display: block;
+	margin: auto;
+	padding: 20em 0px; 
 }
