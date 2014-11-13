@@ -32,7 +32,7 @@ html {
 	text-align: center;
 	padding: 1.5em;
 	color: #FFF;
-	background-color: rgba(0,0,0,.25);
+	background-color: rgba(0,0,0,0);
 	text-decoration: none;
 	border: none;
 }
@@ -50,6 +50,7 @@ html {
 ul {
 	list-style-type:none;
 	margin-bottom: 0;
+	padding: 0;
 }
 
 .nav-top {
