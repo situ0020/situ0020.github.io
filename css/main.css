@@ -127,6 +127,13 @@ li {
 
 .contact {
 	font-size: .75em;
+	padding: 1em;
+}
+
+.contact p {
+	margin: 3em;
+	padding: 1em;
+	border: thin solid rgba(0,0,0,1.00);
 }
 
 .grid {
