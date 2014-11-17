@@ -132,14 +132,15 @@ li {
 }
 
 .contact {
-	font-size: .75em;
-	padding: 1em;
+	background: transparent url('http://placehold.it/1500x1500') no-repeat center top;
+	background-size: cover;
 }
 
+.contact h3,
 .contact p {
-	margin: 3em;
-	padding: 1em;
-	border: thin solid rgba(0,0,0,1.00);
+	font-size: .75em;
+	padding: 1.5em;
+	background-color: rgba(0,0,0,.1);
 }
 
 .grid {
@@ -155,6 +156,9 @@ li {
 }
 
 @media only screen and (min-width: 30em) {
+	.unit-m-1 {
+		width: 100%;
+	}
 	.unit-m-1-2 {
 		width: 50%;
 	}
