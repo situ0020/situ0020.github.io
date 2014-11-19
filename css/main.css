@@ -14,28 +14,6 @@ fieldset, pre, table {
   margin: 0;
 }
 
-.social {
-	position: fixed;
-	background-color: rgba(255,255,255,.5);
-	width: 100%;
-	height: 4em;
-	padding-left: 1.5em;
-}
-
-.social li {
-	display: inline-block;
-	padding-top: 1.25em;
-}
-
-.social li a,
-.social li a:link,
-.social li a:visited {
-	display: inline-block;
-	color: rgba(255,255,255,1.00);
-	width: 20px;
-	height: 40px;
-}
-
 ul {
 	list-style-type:none;
 	padding: 0;
@@ -47,6 +25,35 @@ li {
 
 img {
 	width: 100%;
+}
+
+.social {
+	position: fixed;
+	background-color: rgba(255,255,255,.75);
+	width: 100%;
+	height: 4em;
+	padding-left: 1.5em;
+	
+}
+
+.social li {
+	display: inline-block;
+	padding-top: 1.25em;
+}
+
+.social li a,
+.social li a:link,
+.social li a:visited {
+	display: inline-block;
+	color: rgba(0,0,0,1.00);
+	width: 20px;
+	height: 40px;
+}
+
+.social li a:hover,
+.social li a:active,
+.social li a:focus {
+	color: rgba(255,255,255,1.00);
 }
 
 .nav {
@@ -73,16 +80,16 @@ img {
 	text-align: center;
 	padding: 1em;
 	top: 2em;
-	color: #FFF;
+	color: #000;
 	text-decoration: none;
 	border: none;
-	background-color: rgba(255,255,255,.5)
+	background-color: rgba(255,255,255,.75);
 }
 
 .nav a:hover,
 .nav a:active {
-	color: rgba(0,0,0,1.00);
-	background-color: rgba(255,255,255,0)
+	color: rgba(255,255,255,1.00);
+	background-color: rgba(255,255,255,0);
 }
 
 .nav-top {
@@ -154,7 +161,7 @@ img {
 	width: 100%;
 }
 
-@media only screen and (min-width: 30em) {
+@media only screen and (min-width: 35em) {
 	.unit-m-1 {
 		width: 100%;
 	}
@@ -162,9 +169,9 @@ img {
 		width: 50%;
 	}
 		
-	.nav li{
-		float: left;
-		width: 33.33%;
+	.nav li {
+		display: inline-block;
+		padding-top: .25em;
 	}
 	
 	.nav-btn {
@@ -176,6 +183,21 @@ img {
 		top: 0;
 	}
 	
+	.nav ul {
+		float: right;
+	}
+	
+	.nav a,
+	.nav a:link,
+	.nav a:visited {
+		background: rgba(0,0,0,0);
+	}
+	
+	.nav li:hover,
+	.nav li:active {
+		padding: 0;
+    	border-bottom: 1px solid rgba(255,255,255,1.00);
+	}
 }
 
 @media only screen and (min-width: 60em) {
@@ -183,11 +205,6 @@ img {
 		width: 25%;
 	}
 	.unit-l-1-2 {
-		width: 50%;
-	}
-	
-	.nav-top {
-		display: block;
 		width: 50%;
 	}
 }
