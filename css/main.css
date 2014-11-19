@@ -19,7 +19,6 @@ ul {
 	padding: 0;
 }
 
-
 img {
 	width: 100%;
 }
@@ -107,6 +106,7 @@ img {
 
 .top {
 	background: transparent  url('../img/background.jpg') no-repeat center top;
+	width: 100;
 	background-size: cover;
 }
 
