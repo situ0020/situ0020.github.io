@@ -1,3 +1,16 @@
+/*-------------------------
+
+NOTICE: I WILL INCLUDE A TYPE AND GRID SYSTEM FOR THE ACTUAL DEADLINE.
+
+NOTICE: I HAVE UNKNOWN ERRORS DUE TO THE FLEXSLIDER AND VIEWPORTS IN THE CSS. LET ME KNOW IF THERE IS ANY WAY TO FIX IT.
+
+HELP WANTED FOR NAVIGATION SECTION: I'd prefer if the navigation closed when selecting a page, but it just stays open. Cannot figure out how to uncover navigation menu when scrolling to this slideshow section.
+
+HELP WANTED FOR THE PORTFOLIO SECTION: Slideshow is unable to move on mobile. I'm not sure why and have looked it over.
+
+-------------------------*/
+
+
 @-moz-viewport { width: device-width; scale: 1;}
 @-ms-viewport { width: device-width; scale: 1;}
 @-webkit-viewport { width: device-width; scale: 1;}
@@ -62,7 +75,6 @@ img {
 }
 
 /*-------------------------NAVIGATION SECTION-------------------------*/
-/*-------------------------HELP WANTED: I'd prefer if the navigation closed when selecting a page, but it just stays open.-------------------------*/
 
 .nav {
 	margin: 0;
@@ -176,7 +188,6 @@ img {
 }
 
 /*-------------------------PORTFOLIO SECTION-------------------------*/
-/*-------------------------HELP WANTED: Cannot figure out how to uncover navigation menu when scrolling to this slideshow section.-------------------------*/
 
 .flexslider {
 	width: 100%;
