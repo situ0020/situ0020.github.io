@@ -23,11 +23,6 @@ img {
 	width: 100%;
 }
 
-.about {
-	background: transparent  url('../img/background.jpg') no-repeat center top;
-	background-size: cover;
-}
-
 .caption {
 	color: #FFF;
 	background-color: rgba(0,0,0,.35);
@@ -113,7 +108,25 @@ img {
 	overflow: hidden;
 }
 
+/*-------------------------HOME SECTION-------------------------*/
+
+.home {
+	text-align: center;
+	background: transparent url('../img/stardust.png') no-repeat center center;
+	background-size: cover;
+	padding: 20em 0;
+}
+
+.home img {
+	width: 240px;
+}
+
 /*-------------------------ABOUT SECTION-------------------------*/
+
+
+.about {
+	background-color: rgba(255,255,255,.5);
+}
 
 .about img {
 	width: 80px;
@@ -132,19 +145,19 @@ img {
 	display: block;
 	margin: auto;
 	width: 70%;
-	font-size: .875em;
-	padding-top: 1em;
+	font-size: 1em;
+	padding-top: 2em;
 }
-
 
 .intro {
 	text-align: center;
-	padding: 20em 0;
-	background-color: rgba(255,255,255,.5);
+	padding: 10em 0;
+	background: transparent  url('../img/header-background.svg') no-repeat center top;
+	background-size: cover;
 }
 
-.intro h3 {
-	font-size: 2em;
+.intro h1 {
+	font-size: 1.5em;
 }
 
 /*-------------------------CONTACT SECTION-------------------------*/
