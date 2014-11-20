@@ -139,11 +139,12 @@ img {
 	padding: 1em;
 }
 
-.about p {
+.about p,
+.contact p {
 	display: block;
 	margin: auto;
-	padding: 0 0 1.5em;
-	width: 65%;
+	padding: 0 0 2em;
+	width: 70%;
 	font-size: .75em;
 }
 
@@ -155,7 +156,7 @@ img {
 	width: 80px;
 	display: block;
 	margin: auto;
-	padding: 2em 0 1em;
+	padding: 3em 0 1em;
 }
 
 .contact h4 {
