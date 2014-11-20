@@ -276,6 +276,11 @@ img {
 	.nav a:active {	
     	border-bottom: 1px solid rgba(255,255,255,1.00);
 	}
+	
+	.home img {
+		width: 480px;
+}
+
 }
 
 @media only screen and (min-width: 60em) {
