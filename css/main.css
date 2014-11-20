@@ -148,8 +148,7 @@ img {
 }
 
 .contact {
-	background: transpart url('../img/stardust.png'); no-repeat center top;
-	background-size: cover;
+	background-color: rgba(255,255,255,1.00);
 }
 
 .contact img {
