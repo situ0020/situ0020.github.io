@@ -1,4 +1,15 @@
-html {
+@-moz-viewport { width: device-width; scale: 1;}
+@-ms-viewport { width: device-width; scale: 1;}
+@-webkit-viewport { width: device-width; scale: 1;}
+@-o-viewport { width: device-width; scale: 1;}
+@viewport { width: device-width; scale: 1;}
+
+html{
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-o-text-size-adjust: 100%;
+	text-size-adjust: 100%;
 	font-family: 'Lato', sans-serif;
 	font-weight: 100;
 }
@@ -44,6 +55,10 @@ img {
 .nav-logo img {
 	width: 100px;
 	padding: .75em 0 0 .75em;
+}
+
+.nav-logo img:hover {
+	opacity: .25;
 }
 
 /*-------------------------NAVIGATION SECTION-------------------------*/
@@ -109,8 +124,15 @@ img {
 	padding: 18em 0;
 }
 
-.home img {
-	width: 140px;
+.home h3 {
+	font-size: 2.5em;
+}
+
+.home p {
+	font-size: .75em;
+	border: 1px solid white;
+	margin: 1em 20%;
+	padding: 1em;
 }
 
 /*-------------------------ABOUT SECTION-------------------------*/
@@ -245,22 +267,6 @@ img {
 .unit-s-1 {
 	width: 100%;
 }
-
-.js-logo-fade {
-	/* Don't forget to put in all the prefixes!!! */
-	-webkit-animation: logo-fade 3s linear forwards;
-}
-
-/* Don't forget to put in all the prefixes!!! */
-@-webkit-keyframes logo-fade {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
 
 @media only screen and (min-width: 35em) {
 	.unit-m-1 {
