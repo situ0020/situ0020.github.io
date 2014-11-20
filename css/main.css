@@ -23,15 +23,8 @@ img {
 	width: 100%;
 }
 
-.logo {
-	width: 240px;
-	display: block;
-	margin: auto;
-	padding: 15em 0px;
-}
-
-.top {
-	background: transparent  url('../img/header-background.svg') no-repeat center top;
+.about {
+	background: transparent  url('../img/background.jpg') no-repeat center top;
 	background-size: cover;
 }
 
@@ -146,8 +139,8 @@ img {
 
 .intro {
 	text-align: center;
-	padding: 5em 0;
-	background-color: rgba(0,0,0,.5);
+	padding: 20em 0;
+	background-color: rgba(255,255,255,.5);
 }
 
 .intro h3 {
