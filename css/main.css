@@ -42,8 +42,8 @@ img {
 }
 
 .nav-logo img {
-	width: 200px;
-	padding-top: .75em;
+	width: 100px;
+	padding: .75em 0 0 .75em;
 }
 
 /*-------------------------NAVIGATION SECTION-------------------------*/
@@ -110,7 +110,7 @@ img {
 }
 
 .home img {
-	width: 240px;
+	width: 140px;
 }
 
 /*-------------------------ABOUT SECTION-------------------------*/
@@ -282,7 +282,7 @@ img {
 	}
 	
 	.home img {
-		width: 480px;
+		width: 240px;
 }
 
 }
