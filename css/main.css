@@ -62,6 +62,7 @@ img {
 }
 
 /*-------------------------NAVIGATION SECTION-------------------------*/
+/*-------------------------HELP WANTED: I'd prefer if the navigation closed when selecting a page, but it just stays open.-------------------------*/
 
 .nav {
 	margin: 0;
@@ -175,6 +176,7 @@ img {
 }
 
 /*-------------------------PORTFOLIO SECTION-------------------------*/
+/*-------------------------HELP WANTED: Cannot figure out how to uncover navigation menu when scrolling to this slideshow section.-------------------------*/
 
 .flexslider {
 	width: 100%;
