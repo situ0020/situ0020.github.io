@@ -104,7 +104,7 @@ img {
 
 .home {
 	text-align: center;
-	background: transparent url('../img/stardust.png') no-repeat center center;
+	background: transparent url('../img/header-background.svg') no-repeat center center;
 	background-size: cover;
 	padding: 20em 0;
 }
@@ -162,8 +162,15 @@ img {
 	text-align: center;
 	position: absolute;
 	width: 100%;
-
 }
+
+.portfolio h1 {
+	text-align: center;
+	padding: 3em;
+	background-color: rgba(0,0,0,.75);
+	color: rgba(255,255,255,1.00);
+}
+
 /*-------------------------CONTACT SECTION-------------------------*/
 
 .contact {
@@ -236,6 +243,22 @@ img {
 	width: 100%;
 }
 
+.js-logo-fade {
+	/* Don't forget to put in all the prefixes!!! */
+	-webkit-animation: logo-fade 3s linear forwards;
+}
+
+/* Don't forget to put in all the prefixes!!! */
+@-webkit-keyframes logo-fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
 @media only screen and (min-width: 35em) {
 	.unit-m-1 {
 		width: 100%;
@@ -283,8 +306,28 @@ img {
 	
 	.home img {
 		width: 240px;
+	}
+	
+	.caption {
+		width: 50%;
+	}
 }
 
+.js-icon-fade {
+	/* Don't forget to put in all the prefixes!!! */
+	-webkit-animation: icon-fade 800ms linear forwards;
+}
+
+/* Don't forget to put in all the prefixes!!! */
+@-webkit-keyframes icon-fade {
+	0% {
+		opacity: 0;
+		top: 6em;
+	}
+	100% {
+		opacity: 1;
+		top: 0;
+	}
 }
 
 @media only screen and (min-width: 60em) {
@@ -297,5 +340,9 @@ img {
 	
 	.unit-l-1-3 {
 		width: 33.3333%;
+	}
+	
+	.caption {
+		width: 25%;
 	}
 }

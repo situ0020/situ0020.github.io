@@ -16,3 +16,10 @@
 	    this.setAttribute('data-state', 'active');
 		}
 	});
+	
+var $logoSection = $('.home');
+var $logo = $('.large-logo');
+
+$logoSection.waypoint(function () {
+	$logo.addClass('js-logo-fade');
+}, { offset: '50%' });
