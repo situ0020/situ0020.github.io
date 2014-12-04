@@ -168,13 +168,13 @@ img {
 
 .intro {
 	text-align: center;
-	padding: 8em 0;
+	padding: 5em 0;
 	background: transparent  url('../img/noisy.jpg') no-repeat center top;
 	background-size: cover;
 }
 
 .intro h1 {
-	font-size: 1.5em;
+	font-size: 1.25em;
 }
 
 /*-------------------------PORTFOLIO SECTION-------------------------*/
