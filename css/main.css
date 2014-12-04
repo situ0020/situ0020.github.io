@@ -158,7 +158,11 @@ img {
 	width: 80px;
 	display: block;
 	margin: auto;
-	padding: 4em 0 .75em;
+	padding: 0 0 .75em;
+}
+
+.about h1 {
+	font-weight: 400;
 }
 
 .about h4 {
@@ -178,7 +182,7 @@ img {
 
 .intro {
 	text-align: center;
-	padding: 5em 0;
+	padding: 5em 0 3em;
 }
 
 .intro h1 {
