@@ -109,7 +109,7 @@ img {
 .nav a:hover,
 .nav a:active {
 	color: rgba(255,255,255,1.00);
-	background-color: rgba(255,255,255,0);
+	background-color: rgba(0,0,0,.75);
 }
 
 .nav-top {
@@ -137,17 +137,6 @@ img {
 	padding: 10em 0;
 }
 
-.home h3 {
-	font-size: 2.5em;
-}
-
-.home p {
-	font-size: .75em;
-	border: 1px solid rgba(0,0,0,1.00);
-	margin: 1em 20%;
-	padding: 1em;
-}
-
 /*-------------------------ABOUT SECTION-------------------------*/
 
 
@@ -172,14 +161,15 @@ img {
 	display: block;
 	margin: auto;
 	width: 70%;
-	font-size: 1em;
-	padding-top: 2em;
+	font-size: .875em;
+	padding-top: 1.5em;
+	line-height: 1.5em;
 }
 
 .intro {
 	text-align: center;
-	padding: 10em 0;
-	background: transparent  url('../img/header-background.svg') no-repeat center top;
+	padding: 8em 0;
+	background: transparent  url('../img/noisy.jpg') no-repeat center top;
 	background-size: cover;
 }
 
