@@ -65,10 +65,11 @@ html[xmlns] .slides {display: block;}
 .flex-direction-nav .flex-prev { opacity: 1; left: 10px; }
 .flex-direction-nav .flex-next { opacity: 1; right: 10px; text-align: right; }
 
-.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover { opacity: 1; }
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover { opacity: .25; }
 .flex-direction-nav .flex-disabled { opacity: 0!important; filter:alpha(opacity=0); cursor: default; }
-.flex-direction-nav a:before  { font-family: "flexslider-icon"; font-size: 40px; display: inline-block; content: '\f001'; }
-.flex-direction-nav a.flex-next:before  { content: '\f002'; }
+.flex-direction-nav a { display: block; text-indent: 100%; white-space: nowrap; overflow: hidden; }
+.flex-direction-nav a.flex-prev  { background: transparent url('../img/prev.svg') no-repeat center center; background-size: cover; }
+.flex-direction-nav a.flex-next  { background: transparent url('../img/next.svg') no-repeat center center; background-size: cover; }
 
 /* Pause/Play */
 .flex-pauseplay a { display: block; width: 20px; height: 20px; position: absolute; bottom: 5px; left: 10px; opacity: 0.8; z-index: 10; overflow: hidden; cursor: pointer; color: #000; }
