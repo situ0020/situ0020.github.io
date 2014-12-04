@@ -67,7 +67,7 @@ img {
 
 .nav-logo img {
 	width: 100px;
-	padding: .75em 0 0 .75em;
+	padding: .75em 0 0 1em;
 }
 
 .nav-logo img:hover {
@@ -86,11 +86,16 @@ img {
 .nav-btn:link,
 .nav-btn:visited {
 	position: fixed;
-	top: 10px;
-	right: 10px;
-	height: 40px;
-	width: 40px;
+	top: 0px;
+	right: 0px;
+	height: 60px;
+	width: 60px;
 	background: rgba(0,0,0,0) url('../img/nav-icon.svg') no-repeat right center;
+}
+
+.nav-btn:hover,
+.nav-btn:active {
+	opacity: .5;
 }
 
 .nav a,
