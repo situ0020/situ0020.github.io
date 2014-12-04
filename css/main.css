@@ -217,15 +217,18 @@ img {
 
 .contact {
 	text-align: center;
-	padding: 3em 0 0;
+	padding: 10em 0 0;
+	background: transparent  url('../img/noisy.png') no-repeat center top;
+	background-size: cover;
 }
 .contact img {
 	width: 70px;
-	opacity: .5;
+	opacity: 1;
+	padding: 8em 0 0;
 }
 
 .contact img:hover {
-	opacity: .25;
+	opacity: .5;
 }
 
 .contact h1 {
@@ -241,7 +244,7 @@ img {
 	font-size: .75em;
 	padding: 2em;
 	margin-top: 2em;
-	background-color: rgba(0,0,0,.5);
+	background-color: rgba(0,0,0,.25);
 }
 
 /*-------------------------SOCIAL LINKS SECTION-------------------------*/
