@@ -334,6 +334,13 @@ img {
 	.home {
 		padding: 19em 0; 
 	}
+	
+	.about {
+	background: transparent  url('../img/noisyx2.png') no-repeat center top;
+	background-size: cover;
+	padding: 6em 0 2em;
+}
+
 }
 
 @media only screen and (min-width: 60em) {
