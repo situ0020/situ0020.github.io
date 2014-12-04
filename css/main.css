@@ -196,12 +196,12 @@ img {
 	position: absolute;
 }
 
-.caption {
-	bottom: 1.5rem;
-	color: black;
+.photo-caption {
+	color: rgba(0,0,0,1.00);
 	background-color: rgba(0,0,0,0);
 	padding: 1rem;
 	text-align: center;
+	top: 1em;
 }
 
 .portfolio h1 {
