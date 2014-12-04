@@ -224,7 +224,7 @@ img {
 .contact img {
 	width: 70px;
 	opacity: 1;
-	padding: 8em 0 0;
+	padding: 4em 0 0;
 }
 
 .contact img:hover {
@@ -346,6 +346,9 @@ img {
 	.contact {
 		padding: 10em 0 0;
 	}
+	
+	.contact img {
+		padding: 8em 0 0;
 }
 
 @media only screen and (min-width: 60em) {
