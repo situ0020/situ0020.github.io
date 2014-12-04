@@ -139,7 +139,7 @@ img {
 
 .home {
 	text-align: center;
-	background: transparent url('../img/other-8.png') no-repeat center center;
+	background: transparent url('../img/other-8-small-screen.png') no-repeat center center;
 	background-size: cover;
 	padding: 12em 0;
 }
@@ -333,13 +333,15 @@ img {
 	
 	.home {
 		padding: 19em 0; 
+		background: transparent url('../img/other-8-small-screen.png') no-repeat center center;
+	background-size: cover;
 	}
 	
 	.about {
 	background: transparent  url('../img/noisyx2.png') no-repeat center top;
 	background-size: cover;
 	padding: 6em 0 2em;
-}
+	}
 
 }
 
