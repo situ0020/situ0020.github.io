@@ -49,7 +49,7 @@ img {
 
 .error {
 	text-align: center;
-	background: transparent  url('../img/background.jpg') no-repeat center top;
+	background: transparent  url('../img/other-8.png') no-repeat center top;
 	background-size: cover;
 	display: block;
 	margin: auto;
@@ -139,7 +139,7 @@ img {
 
 .home {
 	text-align: center;
-	background: transparent url('../img/hk.jpg') no-repeat center center;
+	background: transparent url('../img/other-7.png') no-repeat center center;
 	background-size: cover;
 	padding: 10em 0;
 }
@@ -152,7 +152,7 @@ img {
 
 
 .about {
-	background: transparent  url('../img/noisy.jpg') no-repeat center top;
+	background: transparent  url('../img/noisy.png') no-repeat center top;
 	background-size: cover;
 	padding: 6em 0 2em;
 }
