@@ -217,7 +217,7 @@ img {
 
 .contact {
 	text-align: center;
-	padding: 8em 0 0;
+	padding: 4em 0 0;
 	background: transparent  url('../img/noisy.png') no-repeat center top;
 	background-size: cover;
 }
@@ -233,6 +233,7 @@ img {
 
 .contact h1 {
 	padding: .75em 0;
+	font-size: 1.5em;
 }
 
 .contact h4 {
@@ -344,11 +345,16 @@ img {
 	}
 	
 	.contact {
-		padding: 10em 0 0;
+		padding: 16em 0 0;
 	}
 	
 	.contact img {
 		padding: 8em 0 0;
+	}
+	
+	.contact h1 {
+		font-size: 2.25em;
+	}
 }
 
 @media only screen and (min-width: 60em) {
