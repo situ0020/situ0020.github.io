@@ -388,7 +388,7 @@
           cwidth,
           dx,
           startT,
-          scrolling = true,
+          scrolling = false,
           localX = 0,
           localY = 0,
           accDx = 0;
