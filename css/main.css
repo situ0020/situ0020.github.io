@@ -365,6 +365,7 @@ img {
 .photo-caption p {
 	padding: 1em 5%;
 	font-size: .875em;
+	line-height: 1.25em;
 }
 
 .photo-caption:hover {
@@ -490,7 +491,6 @@ img {
 		margin: .15em .5em;
 		padding: 1em 0 .5em;
 		background: rgba(0,0,0,0);
-		background-color: rgba(255,255,255,.75);
 		transition: color 300ms ease-in;
 		-moz-transition: color 300ms ease-in;
 		-webkit-transition: color 300ms ease-in;
