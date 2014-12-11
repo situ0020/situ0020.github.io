@@ -344,7 +344,7 @@ img {
 
 .photo-caption {
 	color: rgba(0,0,0,1.00);
-	background-color: rgba(255,255,255,.75);
+	background-color: rgba(255,255,255,.875);
 	text-align: center;
 	position: absolute;
 	width: 100%;
