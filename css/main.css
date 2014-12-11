@@ -61,7 +61,8 @@ img {
 	font-size: 5em;
 }
 
-.error h2, p {
+.error h2,
+.error p {
 	font-weight: 200;
 	background-color: rgba(255,255,255,.75);
 	padding-top: 1em;
@@ -97,6 +98,25 @@ img {
 
 .nav-logo img:hover {
 	opacity: .25;
+}
+
+.main-logo {
+	opacity: 0;
+}
+
+.js-main-logo-fade {
+	/* Don't forget to put in all the prefixes!!! */
+	-webkit-animation: logo-fade 1s linear forwards;
+}
+
+/* Don't forget to put in all the prefixes!!! */
+@-webkit-keyframes logo-fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 /*-------------------------NAVIGATION SECTION-------------------------*/
@@ -139,8 +159,8 @@ img {
 
 .nav a:hover,
 .nav a:active {
-	color: rgba(255,255,255,1.00);
-	background-color: rgba(0,0,0,.75);
+	color: rgba(0,0,0,.25);
+	background-color: rgba(0,0,0,.5);
 }
 
 .nav-top {
@@ -168,8 +188,115 @@ img {
 	padding: 12em 0;
 }
 
-.home img {
+.main-logo {
 	width: 225px;
+	opacity: 0;
+}
+
+.js-main-logo-fade {
+	/* Don't forget to put in all the prefixes!!! */
+	-webkit-animation: main-logo-fade 1.5s linear forwards;
+}
+
+/* Don't forget to put in all the prefixes!!! */
+@-webkit-keyframes main-logo-fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes main-logo-fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-ms-keyframes main-logo-fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-o-keyframes main-logo-fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes main-logo-fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.subhead {
+	opacity: 0;
+}
+
+.js-subhead-fade {
+	/* Don't forget to put in all the prefixes!!! */
+	-webkit-animation: subhead-fade 1s linear forwards;
+}
+
+/* Don't forget to put in all the prefixes!!! */
+@-webkit-keyframes subhead-fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes subhead-fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-ms-keyframes subhead-fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-o-keyframes subhead-fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes subhead-fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 /*-------------------------ABOUT SECTION-------------------------*/
@@ -355,7 +482,7 @@ img {
 	
 	.nav a:hover,
 	.nav a:active {	
-    	border-bottom: 1px solid rgba(255,255,255,1.00);
+    	border-bottom: 1px solid rgba(0,0,0,.25);
 	}
 	
 	.home {
