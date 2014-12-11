@@ -1,2 +1,10 @@
-User-Agent: *
-Disallow: 
+# Hashes are comments
+
+# http://en.wikipedia.org/wiki/Robots_exclusion_standard
+# http://www.robotstxt.org/
+
+# Always put a robots.txt file into your main website directory
+# Even if your are not denying access to anything
+
+Sitemap: http://mywebsite.com/sea/sitemap.xml
+User-agent:
