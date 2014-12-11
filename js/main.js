@@ -19,7 +19,7 @@ $logoSection.waypoint(function () {
 $logoSection.waypoint(function () {
 	$subhead.addClass('js-subhead-fade');
 }, { offset: '50%' });
-
+$('.small-logo').hide();
 $win.on('scroll', function () {
 	var scrollPos = $win.scrollTop();
          
@@ -29,6 +29,11 @@ $win.on('scroll', function () {
             $('.small-logo').fadeOut('slow');
         } 
     }); 
+	
+$(".nav-top a").on('click', function(e){
+navTop.setAttribute('data-state', 'collapsed');
+  $(".nav-btn").attr('data-state', 'inactive');
+});
 
 
 
