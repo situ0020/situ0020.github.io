@@ -132,15 +132,23 @@ img {
 	text-align: center;
 	padding: 1em;
 	top: 2em;
-	color: #000;
+	color: rgba(0,0,0,1.00);
 	text-decoration: none;
 	border: none;
 	background-color: rgba(255,255,255,.75);
+	transition: color 300ms ease-in;
+	-moz-transition: color 300ms ease-in;
+	-webkit-transition: color 300ms ease-in;
+	-o-transition: color 300ms ease-in;
+	transition: background-color 300ms ease-in;
+	-moz-transition: background-color 300ms ease-in;
+	-webkit-transition: background-color 300ms ease-in;
+	-o-transition: background-color 300ms ease-in;
 }
 
 .nav a:hover,
 .nav a:active {
-	color: rgba(0,0,0,.25);
+	color: rgba(255,255,255,1.00);
 	background-color: rgba(0,0,0,.5);
 }
 
@@ -332,12 +340,22 @@ img {
 
 .photo-caption {
 	color: rgba(0,0,0,1.00);
-	background-color: rgba(255,255,255,.75);
-	padding: 1rem 0;
+	background-color: rgba(255,255,255,.25);
 	text-align: center;
 	position: absolute;
+	padding-top: 25%;
 	width: 100%;
+	height: 100%;
 	z-index: 2;
+	opacity: 0;
+	transition: opacity 1s ease-out;
+	-moz-transition: opacity 1s ease-out;
+	-webkit-transition: opacity 1s ease-out;
+	-o-transition: opacity 1s ease-out;
+}
+
+.photo-caption:hover {
+	opacity: 1;
 }
 
 .portfolio h1 {
@@ -459,11 +477,17 @@ img {
 		margin: .15em .5em;
 		padding: 1em 0 .5em;
 		background: rgba(0,0,0,0);
+		background-color: rgba(255,255,255,.75);
+		transition: color 300ms ease-in;
+		-moz-transition: color 300ms ease-in;
+		-webkit-transition: color 300ms ease-in;
+		-o-transition: color 300ms ease-in;
 	}
 	
 	.nav a:hover,
 	.nav a:active {	
-    	border-bottom: 1px solid rgba(0,0,0,.25);
+    	opacity: .75;
+		color: rgba(0,0,0,.75);
 	}
 	
 	.home {
