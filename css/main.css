@@ -183,11 +183,11 @@ img {
 }
 
 .js-main-logo-fade {
-	-webkit-animation: main-logo-fade 2s linear forwards;
-	-moz-animation: main-logo-fade 2s linear forwards;
-	-ms-animation: main-logo-fade 2s linear forwards;
-	-o-animation: main-logo-fade 2s linear forwards;
-	animation: main-logo-fade 2s linear forwards;
+	-webkit-animation: main-logo-fade 3s linear forwards;
+	-moz-animation: main-logo-fade 3s linear forwards;
+	-ms-animation: main-logo-fade 3s linear forwards;
+	-o-animation: main-logo-fade 3s linear forwards;
+	animation: main-logo-fade 3s linear forwards;
 }
 
 @-webkit-keyframes main-logo-fade {
