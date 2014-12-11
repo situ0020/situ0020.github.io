@@ -53,7 +53,7 @@ img {
 	background-size: cover;
 	display: block;
 	margin: auto;
-	padding: 12em 1em;
+	padding: 12em 0;
 }
 
 .error h1 {
@@ -61,8 +61,23 @@ img {
 	font-size: 5em;
 }
 
-.error h2 {
+.error h2, p {
 	font-weight: 200;
+	background-color: rgba(255,255,255,.75);
+	padding-top: 1em;
+}
+
+.error p {
+	font-size: 1em;
+	padding-bottom: 1em;
+}
+
+.error a:visited {
+	color: rgba(0,0,0,1.00);
+}
+
+.error a:hover {
+	color: rgba(0,0,0,.5);
 }
 
 /*-------------------------LOGO SECTION-------------------------*/
@@ -366,13 +381,16 @@ img {
 	.contact h1 {
 		font-size: 2.25em;
 	}
-	
-	.error {
-		padding: 16em 2em;
-	}
-	.error h1 {
-	font-size: 10em;
 
+	.error h1 {
+		font-size: 10em;
+	}
+	
+	.error h2 {
+		font-size: 2em;
+	}
+	.error p {
+		font-size: 1.5em;
 	}
 }
 
