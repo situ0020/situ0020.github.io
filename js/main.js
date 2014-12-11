@@ -23,10 +23,10 @@ $logoSection.waypoint(function () {
 $win.on('scroll', function () {
 	var scrollPos = $win.scrollTop();
          
-        if ($(this).scrollTop() > 500) {
-            $('.small-logo').fadeIn('slow,1');
+        if ($(this).scrollTop() > 300) {
+            $('.small-logo').fadeIn('slow');
         }else{
-            $('.small-logo').fadeOut('slow,0');
+            $('.small-logo').fadeOut('slow');
         } 
     }); 
 

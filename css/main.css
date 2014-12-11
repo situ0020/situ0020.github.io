@@ -183,11 +183,13 @@ img {
 }
 
 .js-main-logo-fade {
-	/* Don't forget to put in all the prefixes!!! */
 	-webkit-animation: main-logo-fade 2s linear forwards;
+	-moz-animation: main-logo-fade 2s linear forwards;
+	-ms-animation: main-logo-fade 2s linear forwards;
+	-o-animation: main-logo-fade 2s linear forwards;
+	animation: main-logo-fade 2s linear forwards;
 }
 
-/* Don't forget to put in all the prefixes!!! */
 @-webkit-keyframes main-logo-fade {
 	0% {
 		opacity: 0;
@@ -238,11 +240,13 @@ img {
 }
 
 .js-subhead-fade {
-	/* Don't forget to put in all the prefixes!!! */
+	animation: subhead-fade 1s linear forwards;
 	-webkit-animation: subhead-fade 1s linear forwards;
+	-mos-animation: subhead-fade 1s linear forwards;
+	-ms-animation: subhead-fade 1s linear forwards;
+	-o-animation: subhead-fade 1s linear forwards;
 }
 
-/* Don't forget to put in all the prefixes!!! */
 @-webkit-keyframes subhead-fade {
 	0% {
 		opacity: 0;
