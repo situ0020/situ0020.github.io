@@ -92,7 +92,7 @@ img {
 }
 
 .nav-logo img {
-	width: 100px;
+	width: 150px;
 	padding: .75em 0 0 1em;
 }
 
@@ -107,6 +107,7 @@ img {
 	width: 100%;
 	position: fixed;
 	z-index: 200;
+	font-size: .875em;
 }
 
 .nav-btn,
@@ -178,7 +179,7 @@ img {
 }
 
 .main-logo {
-	width: 225px;
+	width: 275px;
 	opacity: 0;
 }
 
@@ -296,8 +297,7 @@ img {
 
 
 .about {
-	background: transparent  url('../img/noisy.png') no-repeat center top;
-	background-size: cover;
+	background-color: rgba(255,255,255,1.00);
 	padding: 6em 0 2em;
 }
 
@@ -308,7 +308,8 @@ img {
 }
 
 .about h1 {
-	font-weight: 400;
+	font-weight: 100;
+	font-size: 3em;
 }
 
 .about h4 {
@@ -329,10 +330,6 @@ img {
 .intro {
 	text-align: center;
 	padding: 0 0 3em;
-}
-
-.intro h1 {
-	font-size: 1.25em;
 }
 
 /*-------------------------PORTFOLIO SECTION-------------------------*/
@@ -372,11 +369,16 @@ img {
 	opacity: 1;
 }
 
+.portfolio {
+	background-color: rgba(255,255,255,1.00);
+}
+
 .portfolio h1 {
 	text-align: center;
-	padding: 3em;
-	background-color: rgba(255,255,255,1.00);
-	color: rgba(0,0,0,1.00);
+	padding: 1em;
+	color: rgba(255,255,255,1.00);
+	background-color: rgba(0,0,0,1.00);
+	margin: 10%;
 }
 
 /*-------------------------CONTACT SECTION-------------------------*/
@@ -510,8 +512,6 @@ img {
 	}
 	
 	.about {
-		background: transparent  url('../img/noisyx2.png') no-repeat center top;
-		background-size: cover;
 		padding: 6em 0 2em;
 	}
 	
@@ -540,6 +540,10 @@ img {
 	}
 	.error p {
 		font-size: 1.5em;
+	}
+	
+	.portfolio h1 {
+		margin: 10% 30%;
 	}
 }
 
