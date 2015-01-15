@@ -93,7 +93,7 @@ img {
 
 .nav-logo img {
 	width: 150px;
-	padding: .75em 0 0 1em;
+	padding: .75em 0 0 .35em;
 }
 
 .nav-logo img:hover {
