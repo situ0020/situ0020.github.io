@@ -93,7 +93,7 @@ img {
 
 .nav-logo img {
 	width: 150px;
-	padding: .75em 0 0 .35em;
+	padding: .8em 0 0 .35em;
 }
 
 .nav-logo img:hover {
@@ -114,7 +114,7 @@ img {
 .nav-btn:link,
 .nav-btn:visited {
 	position: fixed;
-	top: 0px;
+	top: 1px;
 	right: 0px;
 	height: 60px;
 	width: 60px;
@@ -156,7 +156,7 @@ img {
 
 .nav-top {
 	display: none;
-	top: 4em;
+	top: 4.6em;
 }
 
 .nav-top[data-state="expanded"] {
