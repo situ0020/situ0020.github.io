@@ -310,7 +310,7 @@ img {
 
 .about {
 	background-color: rgba(255,255,255,1.00);
-	padding: 6em 0 2em;
+	padding: 0em 0 3em;
 }
 
 .about img {
@@ -382,15 +382,20 @@ img {
 }
 
 .portfolio {
-	background-color: rgba(255,255,255,1.00);
+	position: relative;
+	top: -6.5em;
 }
 
 .portfolio h1 {
+	background-color: rgba(191,222,213,.5);
+	color: rgba(0,0,0,1.00);
+	font-size: 1.2em;
+	font-style: italic;
+	padding: .5em;
+	margin: auto;
+	margin-bottom: 1.5em;
 	text-align: center;
-	padding: 1em;
-	color: rgba(255,255,255,1.00);
-	background-color: rgba(0,0,0,1.00);
-	margin: 10%;
+	width: 6em;
 }
 
 /*-------------------------CONTACT SECTION-------------------------*/
@@ -536,11 +541,7 @@ img {
 		background: transparent url('../img/other-8-small-screen.png') no-repeat center center;
 	background-size: cover;
 	}
-	
-	.about {
-		padding: 6em 0 2em;
-	}
-	
+
 	.about img {
 		width: 400px;
 	}
@@ -572,8 +573,8 @@ img {
 		font-size: 1.5em;
 	}
 	
-	.portfolio h1 {
-		margin: 10% 30%;
+	.portfolio{
+		top: -4.5em;
 	}
 }
 
