@@ -48,7 +48,7 @@ ul {
 
 .error {
 	text-align: center;
-	background: transparent  url('../img/other-3.png') no-repeat center top;
+	background: transparent  url('../img/other-9.png') no-repeat center top;
 	background-size: cover;
 	display: block;
 	margin: auto;
@@ -120,7 +120,7 @@ ul {
 .nav-btn:link,
 .nav-btn:visited {
 	position: fixed;
-	top: 20px;
+	top: 5px;
 	right: 20px;
 	height: 60px;
 	width: 60px;
@@ -166,7 +166,7 @@ ul {
 
 .nav-top {
 	display: none;
-	top: 6.85em;
+	top: 5.2em;
 }
 
 .nav-top[data-state="expanded"] {
@@ -184,10 +184,9 @@ ul {
 
 .home {
 	text-align: center;
-	background: transparent url('../img/other-8.png') no-repeat center center;
+	background: transparent url('../img/other-9.png') no-repeat center center;
 	background-size: cover;
 	padding: 8em 0;
-	margin: 1em;
 }
 
 .main-logo {
@@ -408,7 +407,7 @@ ul {
 .contact {
 	text-align: center;
 	padding: 4em 0 0;
-	background: transparent url('../img/other-8-small-screen.png') no-repeat center center;
+	background: transparent url('../img/other-9.png') no-repeat center center;
 	background-size: cover;
 }
 .contact img {
@@ -436,7 +435,8 @@ ul {
 }
 
 .contact h5 {
-	padding-top: .5em;
+	font-size: .9em;
+	padding-top: .15em;
 }
 
 .contact p {
@@ -462,7 +462,7 @@ ul {
 .social li a:visited {
 	display: inline-block;
 	color: rgba(0,0,0,1.00);
-	width: 20px;
+	width: 36px;
 }
 
 .social li a:hover,
@@ -510,7 +510,7 @@ ul {
 		
 	.nav li {
 		display: inline-block;
-		padding-top: 1.85em;
+		padding-top: .9em;
 		padding-left: .05em;
 	}
 	
@@ -548,7 +548,7 @@ ul {
 	
 	.home {
 		padding: 12em 0 12em; 
-		background: transparent url('../img/other-8.png') no-repeat center center;
+		background: transparent url('../img/other-9.png') no-repeat center center;
 	background-size: cover;
 	} 
 	
@@ -565,7 +565,7 @@ ul {
 	}
 	
 	.contact img {
-		padding: 8em 0 0;
+		padding: 9em 0 0;
 	}
 	
 	.contact h1 {
