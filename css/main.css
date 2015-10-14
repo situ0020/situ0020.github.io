@@ -60,24 +60,28 @@ ul {
 	font-size: 5em;
 }
 
-.error h2,
+.error h3,
 .error p {
-	font-weight: 200;
-	background-color: rgba(255,255,255,.75);
-	padding-top: 1em;
+	font-size: 1.35em;
+	font-weight: 300;
+	padding-top: .25em;
 }
 
-.error p {
-	font-size: 1em;
-	padding-bottom: 1em;
+.error a {
+	color: rgba(0,0,0,.5);
+}
+
+.error h4 {
+	font-size: 1.25em;
+	padding-top: .5em;
 }
 
 .error a:visited {
-	color: rgba(0,0,0,1.00);
+	color: rgba(0,0,0,.5);
 }
 
 .error a:hover {
-	color: rgba(0,0,0,.5);
+	color: rgba(154,214,204,1.00);
 }
 
 /*-------------------------SMALL LOGO SECTION-------------------------*/
@@ -94,7 +98,6 @@ ul {
 .nav-logo img {
 	width: 90px;
 	padding-top: 1em;
-	padding-left: 1em;
 	background-color: rgba(0,0,0,0);
 }
 
@@ -492,7 +495,7 @@ ul {
 
 @media only screen and (min-width: 32em) {
 	.small-logo {
-		padding-left: .5em;
+		padding-left: 1.5em;
 	}
 	
 	.nav-logo {
