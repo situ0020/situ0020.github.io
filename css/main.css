@@ -393,11 +393,11 @@ ul {
 .portfolio {
 	text-align: center;
 	line-height: 0;
-	-webkit-column-count: 3;
+	-webkit-column-count: 4;
 	-webkit-column-gap: 0px;
-	-moz-column-count: 3;
+	-moz-column-count: 4;
 	-moz-column-gap: 0px;
-	column-count: 3;
+	column-count: 4;
 	column-gap: 0px;
 }
 
@@ -646,9 +646,10 @@ ul {
   column-count:         1;
   }
 }
-
-@media (min-width: 800px) {
-  .photos img {
+ @media (min-width: 800px) {
+.photos img {
 		max-height: 400px;
 	}
-}
+ }
+
+

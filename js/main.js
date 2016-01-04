@@ -42,7 +42,6 @@ function getRandomSize(min, max) {
   for (var i = 0; i < 25; i++) {
     var width = getRandomSize(200, 400);
     var height =  getRandomSize(200, 400);
-    $('.portfolio').append('<img src="index.html"'+width+'/'+height+'/cats" alt="portfolio">');
   }
 });
 
