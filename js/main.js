@@ -35,5 +35,15 @@ navTop.setAttribute('data-state', 'collapsed');
   $(".nav-btn").attr('data-state', 'inactive');
 });
 
+$(document).ready(function() {
+function getRandomSize(min, max) {
+  return Math.round(Math.random() * (max - min) + min);
+}
+  for (var i = 0; i < 25; i++) {
+    var width = getRandomSize(200, 400);
+    var height =  getRandomSize(200, 400);
+    $('.portfolio').append('<img src="index.html"'+width+'/'+height+'/cats" alt="portfolio">');
+  }
+});
 
 
