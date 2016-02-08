@@ -89,16 +89,16 @@ ul {
 
 .nav-logo {
 	position: fixed;
-	background-color: rgba(255,255,255,0);
+	background-color: rgba(255,255,255,1);
 	width: 100%;
-	height: 6em;
+	height: 5em;
 	z-index: 200;
 	text-align: center;
 }
 
 .nav-logo img {
 	width: 90px;
-	padding-top: 1em;
+	padding-top: 1.1em;
 	background-color: rgba(0,0,0,0);
 }
 
@@ -170,7 +170,7 @@ ul {
 
 .nav-top {
 	display: none;
-	top: 5.2em;
+	top: 5.7em;
 }
 
 .nav-top[data-state="expanded"] {
@@ -454,7 +454,8 @@ ul {
 	font-size: .75em;
 	padding: 2em;
 	margin-top: 2em;
-	background-color: rgba(255,255,255,.75);
+	background-color: rgba(255,255,255,0);
+	color: white;
 }
 
 /*-------------------------SOCIAL LINKS SECTION-------------------------*/
@@ -518,6 +519,7 @@ ul {
 	.nav-logo {
 		text-align: left;
 		padding-left: .75em;
+		background-color: white;
 	}
 	
 	.main-logo {
