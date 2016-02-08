@@ -567,7 +567,7 @@ ul {
 	}
 	
 	.home {
-		padding: 22em 0 22em; 
+		padding: 14em 0 14em; 
 		background: transparent url('../img/mountains-2.png') no-repeat center center;
 	background-size: cover;
 	} 
@@ -609,6 +609,11 @@ ul {
 }
 
 @media only screen and (min-width: 60em) {
+	.home {
+		padding: 22em 0 22em; 
+		background: transparent url('../img/mountains-2.png') no-repeat center center;
+	background-size: cover;
+	}
 	.unit-l-1-4 {
 		width: 25%;
 	}
