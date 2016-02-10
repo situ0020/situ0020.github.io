@@ -89,16 +89,16 @@ ul {
 
 .nav-logo {
 	position: fixed;
-	background-color: rgba(255,255,255,1);
+	background-color: rgba(255,255,255,1.00);
 	width: 100%;
-	height: 5em;
+	height: 8em;
 	z-index: 200;
 	text-align: center;
 }
 
 .nav-logo img {
-	width: 90px;
-	padding-top: 1.1em;
+	width: 180px;
+	padding-top: 1.5em;
 	background-color: rgba(0,0,0,0);
 }
 
@@ -124,7 +124,7 @@ ul {
 .nav-btn:link,
 .nav-btn:visited {
 	position: fixed;
-	top: 5px;
+	top: 34.2px;
 	right: 20px;
 	height: 60px;
 	width: 60px;
@@ -170,7 +170,7 @@ ul {
 
 .nav-top {
 	display: none;
-	top: 5.7em;
+	top: 9.15em;
 }
 
 .nav-top[data-state="expanded"] {
@@ -188,9 +188,7 @@ ul {
 
 .home {
 	text-align: center;
-	background: transparent url('../img/mountains-2.png') no-repeat center center;
-	background-size: cover;
-	padding: 16em 0;
+	padding: 3em 0;
 }
 
 .main-logo {
@@ -502,7 +500,7 @@ ul {
 	width: 100%;
 }
 
-@media only screen and (min-width: 32em) {
+@media only screen and (min-width: 37.5em) {
 	.photos li{
 		margin: 3em 0em 0em 3em;
 	}
@@ -513,13 +511,20 @@ ul {
 	
 
 	.small-logo {
-		padding-left: 1.5em;
+		padding: 0;
+		margin: 0;
+	}
+	
+	.nav-logo img {
+		width: 200px;
+		float: left;
+		padding-top: 1.3em;
 	}
 	
 	.nav-logo {
-		text-align: left;
-		padding-left: .75em;
-		background-color: white;
+		background-color: rgba(255,255,255,1.00);
+		height: 8em;
+		padding-left: 1.5em;
 	}
 	
 	.main-logo {
@@ -532,8 +537,8 @@ ul {
 		
 	.nav li {
 		display: inline-block;
-		padding-top: .9em;
-		padding-left: .05em;
+		padding-top: 2.7em;
+		padding-left: 1em;
 	}
 	
 	.nav-btn {
@@ -547,13 +552,13 @@ ul {
 	
 	.nav ul {
 		float: right;
-		padding-right: 2.25em;
+		padding-right: 3em;
 	}
 	
 	.nav a,
 	.nav a:link,
 	.nav a:visited {
-		margin: .15em .5em;
+		margin: .15em;
 		padding: 1em 0 .5em;
 		background: rgba(0,0,0,0);
 		transition: color 300ms ease-in;
@@ -569,9 +574,7 @@ ul {
 	}
 	
 	.home {
-		padding: 14em 0 14em; 
-		background: transparent url('../img/mountains-2.png') no-repeat center center;
-	background-size: cover;
+		padding: 2.5em 0;
 	} 
 	
 	.about {
@@ -611,11 +614,6 @@ ul {
 }
 
 @media only screen and (min-width: 60em) {
-	.home {
-		padding: 22em 0 22em; 
-		background: transparent url('../img/mountains-2.png') no-repeat center center;
-	background-size: cover;
-	}
 	.unit-l-1-4 {
 		width: 25%;
 	}
@@ -639,21 +637,21 @@ ul {
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 700px) {
   .portfolio {
   -moz-column-count:    2;
   -webkit-column-count: 2;
   column-count:         2;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .portfolio {
   -moz-column-count:    1;
   -webkit-column-count: 1;
   column-count:         1;
   }
 }
- @media (min-width: 800px) {
+ @media (min-width: 601px) {
 .photos img {
 		max-height: 400px;
 	}

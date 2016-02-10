@@ -12,6 +12,7 @@ $(".nav").localScroll();
 $(".contact").localScroll();
 
 
+/*
 $logoSection.waypoint(function () {
 	$logo.addClass('js-main-logo-fade');
 }, { offset: '50%' });
@@ -29,6 +30,7 @@ $win.on('scroll', function () {
             $('.small-logo').fadeOut('slow');
         } 
     }); 
+*/
 	
 $(".nav-top a").on('click', function(e){
 navTop.setAttribute('data-state', 'collapsed');
