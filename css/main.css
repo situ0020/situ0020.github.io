@@ -615,6 +615,9 @@ ul {
 }
 
 @media only screen and (min-width: 60em) {
+	.nav ul {
+		padding-right: 4.5em;
+	}
 	.nav-logo {
 		padding-left: 3em;
 	}
