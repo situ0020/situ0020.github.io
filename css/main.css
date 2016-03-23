@@ -315,9 +315,10 @@ ul {
 }
 
 .about img {
-	width: 275px;
+	width: 350px;
 	display: block;
 	margin: auto;
+	margin-top: 1em;
 }
 
 .about h1 {
@@ -342,7 +343,7 @@ ul {
 
 .intro {
 	text-align: center;
-	padding: 0 0 3em;
+	padding: 0 0 1em;
 }
 
 /*-------------------------PORTFOLIO SECTION-------------------------*/
@@ -583,11 +584,11 @@ ul {
 	}
 	
 	.about img {
-		width: 400px;
+		width: 500px;
 	}
 	
 	.contact {
-		padding: 16em 0 0;
+		padding: 1em 0 0;
 	}
 	
 	.contact img {
