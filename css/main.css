@@ -34,10 +34,15 @@ p, ul, ol, dl, dd, figure,
 blockquote, details, hr,
 fieldset, pre, table {
   margin: 0;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .photos img {
+	max-width: 100%;
+	text-align: center;
+}
+
+.photos2 img {
 	max-width: 100%;
 	text-align: center;
 }
@@ -160,11 +165,12 @@ ul {
 	-webkit-transition: background-color 300ms ease-in;
 	-o-transition: background-color 300ms ease-in;
 	font-style: italic;
+	font-weight: 300;
 }
 
 .nav a:hover,
 .nav a:active {
-	color: rgba(154,214,204,1.00);
+	color: rgba(255,255,255,1.00);
 	background-color: rgba(0,0,0,.25);
 }
 
@@ -311,7 +317,7 @@ ul {
 
 .about {
 	background-color: rgba(255,255,255,1.00);
-	padding: 5em 0 3em;
+	padding: 0em 0 3em;
 }
 
 .about img {
@@ -343,7 +349,13 @@ ul {
 
 .intro {
 	text-align: center;
-	padding: 0 0 1em;
+	padding: 10em 0 3em;
+}
+
+.intro h1 {
+	font-weight: 100;
+	font-style: italic;
+	font-size: 1em;
 }
 
 /*-------------------------PORTFOLIO SECTION-------------------------*/
@@ -389,6 +401,11 @@ ul {
 	text-align: center;
 }
 
+.photos2 li{
+	margin: 2em 2em 0em;
+	text-align: center;
+}
+
 .portfolio {
 	margin-top: -1em;
 	text-align: center;
@@ -411,6 +428,35 @@ ul {
 	margin-bottom: 1.5em;
 	text-align: center;
 	width: 6em;
+}
+
+.portfolio2 {
+	margin-top: -1em;
+	text-align: center;
+	line-height: 0;
+}
+
+.portfolio2 h1 {
+	background-color: rgba(255,255,255,1.00);
+	color: rgba(0,0,0,1.00);
+	font-size: 1.2em;
+	font-style: italic;
+	padding: .5em;
+	margin: auto;
+	margin-bottom: 1.5em;
+	text-align: center;
+	width: 6em;
+}
+
+.recent {
+	text-align: center;
+	padding: 10em 0 3em;
+}
+
+.recent h1 {
+	font-weight: 100;
+	font-style: italic;
+	font-size: 1em;
 }
 
 /*-------------------------CONTACT SECTION-------------------------*/
@@ -437,17 +483,20 @@ ul {
 
 .contact h1 {
 	padding: .75em 0;
+	font-weight: 100;
+	font-style: italic;
 	font-size: 1.5em;
 }
 
 .contact h4 {
 	font-size: 1em;
 	padding: .25em 0;
+	font-weight: 300;
 }
 
 .contact h5 {
 	font-size: .9em;
-	padding-top: .15em;
+	font-weight: 300;
 }
 
 .contact p {
@@ -456,6 +505,7 @@ ul {
 	margin-top: 2em;
 	background-color: rgba(255,255,255,0);
 	color: white;
+	font-weight: 300;
 }
 
 /*-------------------------SOCIAL LINKS SECTION-------------------------*/
@@ -480,7 +530,7 @@ ul {
 .social li a:hover,
 .social li a:active,
 .social li a:focus {
-	color: rgba(154,214,204,1.00);
+	color: rgba(0,0,0,.5);
 	transition: color 300ms ease-in;
 	-moz-transition: color 300ms ease-in;
 	-webkit-transition: color 300ms ease-in;
@@ -506,11 +556,17 @@ ul {
 	.photos li {
 		margin: 3em 0em 0em 3em;
 	}
+	.photos2 li {
+		margin: 3em 0em 0em 3em;
+	}
 	
 	.portfolio {
 		margin-right: 3em;
 	}
 	
+	.portfolio2 {
+		margin-right: 3em;
+	}
 
 	.small-logo {
 		padding: 0;
@@ -572,23 +628,19 @@ ul {
 	.nav a:hover,
 	.nav a:active {	
     	opacity: .75;
-		color: rgba(154,214,204,1.00);
+		color: rgba(0,0,0,.5);
 	}
 	
 	.home {
 		padding: 2.5em 0;
 	} 
 	
-	.about {
-		padding: 12em 0;
-	}
-	
 	.about img {
 		width: 500px;
 	}
 	
 	.contact {
-		padding: 1em 0 0;
+		padding: 7em 0 0;
 	}
 	
 	.contact img {
@@ -662,6 +714,11 @@ ul {
  @media (min-width: 601px) {
 .photos img {
 		max-height: 400px;
+	}
+	
+.photos2 img {
+		max-height: 800px;
+		max-width: 900px;
 	}
  }
 
