@@ -42,11 +42,6 @@ fieldset, pre, table {
 	text-align: center;
 }
 
-.photos2 img {
-	max-width: 100%;
-	text-align: center;
-}
-
 ul {
 	list-style-type:none;
 	padding: 0;
@@ -58,7 +53,7 @@ ul {
 	background-size: cover;
 	display: block;
 	margin: auto;
-	padding: 10em 0;
+	padding: 10em 0 20em;
 }
 
 .error h1 {
@@ -68,7 +63,7 @@ ul {
 
 .error h3,
 .error p {
-	font-size: 1.35em;
+	font-size: 1em;
 	font-weight: 300;
 	padding-top: .25em;
 }
@@ -83,11 +78,11 @@ ul {
 }
 
 .error a:visited {
-	color: rgba(0,0,0,.5);
+	color: rgba(0,0,0,1.00);
 }
 
 .error a:hover {
-	color: rgba(154,214,204,1.00);
+	color: rgba(0,0,0,1.00);
 }
 
 /*-------------------------SMALL LOGO SECTION-------------------------*/
@@ -116,6 +111,10 @@ ul {
 }
 
 /*-------------------------NAVIGATION SECTION-------------------------*/
+
+.top {
+	z-index: 2000;
+}
 
 .nav {
 	margin: 0;
@@ -401,11 +400,6 @@ ul {
 	text-align: center;
 }
 
-.photos2 li{
-	margin: 2em 2em 0em;
-	text-align: center;
-}
-
 .portfolio {
 	margin-top: -1em;
 	text-align: center;
@@ -450,6 +444,67 @@ ul {
 
 .recent {
 	text-align: center;
+	padding: 6em 0 3em;
+}
+
+.recent h1 {
+	font-weight: 100;
+	font-style: italic;
+	font-size: 1em;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  margin: auto;
+  position: relative;
+}
+
+.mySlides {
+	text-align: center;
+}
+
+.mySlides img {
+	text-align: center;
+	max-width: 87%;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  position: relative;
+  margin: auto;
+  padding: 2em;
+  top: 15.1em;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.prevnext {
+	text-align: center;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+	color: rgba(0,0,0,1.00);
+}
+
+/* Caption text */
+.text {
+  color: rgba(0,0,0,1.00);
+  font-size: .75em;
+  top: .6em;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-weight: 300;
+}
+
+.recent {
+	text-align: center;
 	padding: 10em 0 3em;
 }
 
@@ -457,6 +512,24 @@ ul {
 	font-weight: 100;
 	font-style: italic;
 	font-size: 1em;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
 
 /*-------------------------CONTACT SECTION-------------------------*/
@@ -556,9 +629,6 @@ ul {
 	.photos li {
 		margin: 3em 0em 0em 3em;
 	}
-	.photos2 li {
-		margin: 3em 0em 0em 3em;
-	}
 	
 	.portfolio {
 		margin-right: 3em;
@@ -656,7 +726,7 @@ ul {
 	}
 	
 	.error {
-		padding: 12em 0;
+		padding: 12em 0 28em;
 	}
 	
 	.error h1 {
@@ -668,6 +738,9 @@ ul {
 	}
 	.error p {
 		font-size: 1.5em;
+	}
+	.recent {
+	padding: 8em 0 3em;
 	}
 }
 
@@ -693,12 +766,28 @@ ul {
 	}
 }
 
+@media only screen and (min-width: 50em) {
+	.mySlides img {
+		max-height: 500px;
+		max-width: 700px;
+	}
+}
+
+@media (min-width: 1201px) {
+  .prev, .next {
+  top: 13.35em;
+}
+}
+
 @media (max-width: 1200px) {
   .portfolio {
   -moz-column-count:    3;
   -webkit-column-count: 3;
   column-count:         3;
   }
+  .prev, .next {
+  top: 13.35em;
+}
 }
 
 @media (max-width: 700px) {
@@ -707,6 +796,9 @@ ul {
   -webkit-column-count: 2;
   column-count:         2;
   }
+  .prev, .next {
+  top: 13.35em;
+  }
 }
 @media (max-width: 600px) {
   .portfolio {
@@ -714,16 +806,14 @@ ul {
   -webkit-column-count: 1;
   column-count:         1;
   }
+   .prev, .next {
+  top: 15.083em;
+  }
+  
 }
  @media (min-width: 601px) {
 .photos img {
 		max-height: 400px;
 	}
-	
-.photos2 img {
-		max-height: 800px;
-		max-width: 900px;
-	}
  }
-
 
