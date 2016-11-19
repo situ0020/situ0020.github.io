@@ -473,7 +473,7 @@ ul {
   position: relative;
   margin: auto;
   padding: 2em;
-  top: 15.1em;
+  top: -18.1em;
   color: black;
   font-weight: bold;
   font-size: 18px;
@@ -495,8 +495,8 @@ ul {
 /* Caption text */
 .text {
   color: rgba(0,0,0,1.00);
-  font-size: .75em;
-  top: .6em;
+  font-size: .875em;
+  top: -1.25em;
   position: relative;
   width: 100%;
   text-align: center;
@@ -530,6 +530,119 @@ ul {
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+
+/*-------------------------GRAPHIC DESIGN SECTION-------------------------*/
+
+.graphicdesign {
+	text-align: center;
+}
+
+.recent {
+	text-align: center;
+	padding: 6em 0 3em;
+}
+
+.graphicdesign h1 {
+	font-weight: 100;
+	font-style: italic;
+	font-size: 1em;
+}
+
+
+.graphicdesign img {
+	width: 87%;
+}
+
+#myImg {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 8em;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+	padding-top: 5em;
+    display: block;
+    width: 100%;
+    max-width: 300px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 1em;
+    right: 35px;
+    color: rgba(0,0,0,1.00);
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+.graphicdesign {
+	position: relative;
+	top: 5em;
 }
 
 /*-------------------------CONTACT SECTION-------------------------*/
@@ -702,7 +815,7 @@ ul {
 	}
 	
 	.home {
-		padding: 2.5em 0;
+		padding: 3em 0;
 	} 
 	
 	.about img {
@@ -749,7 +862,7 @@ ul {
 		padding-right: 4.5em;
 	}
 	.nav-logo {
-		padding-left: 3em;
+		padding-left: 4em;
 	}
 	.unit-l-1-4 {
 		width: 25%;
