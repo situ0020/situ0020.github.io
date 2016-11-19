@@ -121,7 +121,7 @@ ul {
 	width: 100%;
 	position: fixed;
 	z-index: 200;
-	font-size: .875em;
+	font-size: .75em;
 }
 
 .nav-btn,
@@ -163,8 +163,7 @@ ul {
 	-moz-transition: background-color 300ms ease-in;
 	-webkit-transition: background-color 300ms ease-in;
 	-o-transition: background-color 300ms ease-in;
-	font-style: italic;
-	font-weight: 300;
+	font-weight: 900;
 }
 
 .nav a:hover,
@@ -175,7 +174,7 @@ ul {
 
 .nav-top {
 	display: none;
-	top: 6.85em;
+	top: 8em;
 }
 
 .nav-top[data-state="expanded"] {
@@ -341,7 +340,7 @@ ul {
 	display: block;
 	margin: auto;
 	width: 70%;
-	font-size: .875em;
+	font-size: 1em;
 	padding-top: 1.5em;
 	line-height: 1.5em;
 }
@@ -352,8 +351,7 @@ ul {
 }
 
 .intro h1 {
-	font-weight: 100;
-	font-style: italic;
+	font-weight: 300;
 	font-size: 1em;
 }
 
@@ -400,19 +398,19 @@ ul {
 	text-align: center;
 }
 
-.portfolio {
+.portfolio, .portrait {
 	margin-top: -1em;
 	text-align: center;
 	line-height: 0;
-	-webkit-column-count: 4;
+	-webkit-column-count: 3;
 	-webkit-column-gap: 0px;
-	-moz-column-count: 4;
+	-moz-column-count: 3;
 	-moz-column-gap: 0px;
-	column-count: 4;
+	column-count: 3;
 	column-gap: 0px;
 }
 
-.portfolio h1 {
+.portfolio h1, .portrait h1 {
 	background-color: rgba(255,255,255,1.00);
 	color: rgba(0,0,0,1.00);
 	font-size: 1.2em;
@@ -448,8 +446,7 @@ ul {
 }
 
 .recent h1 {
-	font-weight: 100;
-	font-style: italic;
+	font-weight: 300;
 	font-size: 1em;
 }
 
@@ -473,7 +470,7 @@ ul {
   position: relative;
   margin: auto;
   padding: 2em;
-  top: -18.1em;
+  top: 9.692em;
   color: black;
   font-weight: bold;
   font-size: 18px;
@@ -495,8 +492,8 @@ ul {
 /* Caption text */
 .text {
   color: rgba(0,0,0,1.00);
-  font-size: .875em;
-  top: -1.25em;
+  font-size: .75em;
+  top: -1.87em;
   position: relative;
   width: 100%;
   text-align: center;
@@ -509,9 +506,7 @@ ul {
 }
 
 .recent h1 {
-	font-weight: 100;
-	font-style: italic;
-	font-size: 1em;
+	font-size: .875em;
 }
 
 /* Fading animation */
@@ -738,13 +733,14 @@ ul {
 	width: 100%;
 }
 
-@media only screen and (min-width: 37.5em) {
+@media only screen and (min-width: 43.75em) {
 	.photos li {
 		margin: 3em 0em 0em 3em;
 	}
 	
-	.portfolio {
+	.portfolio, .portrait {
 		margin-right: 3em;
+		margin-top: 3em;
 	}
 	
 	.portfolio2 {
@@ -778,7 +774,7 @@ ul {
 		
 	.nav li {
 		display: inline-block;
-		padding-top: 2.7em;
+		padding-top: 4.1em;
 		padding-left: 1em;
 	}
 	
@@ -879,6 +875,12 @@ ul {
 	}
 }
 
+@media only screen and (min-width: 43.75em) {
+	   .prev, .next {
+  top: 11.457em;
+  }
+}
+
 @media only screen and (min-width: 50em) {
 	.mySlides img {
 		max-height: 500px;
@@ -886,47 +888,28 @@ ul {
 	}
 }
 
-@media (min-width: 1201px) {
-  .prev, .next {
-  top: 13.35em;
-}
-}
-
-@media (max-width: 1200px) {
-  .portfolio {
-  -moz-column-count:    3;
-  -webkit-column-count: 3;
-  column-count:         3;
-  }
-  .prev, .next {
-  top: 13.35em;
-}
-}
-
-@media (max-width: 700px) {
-  .portfolio {
+@media (max-width: 1000px) {
+  .portfolio, .portrait {
   -moz-column-count:    2;
   -webkit-column-count: 2;
   column-count:         2;
   }
-  .prev, .next {
-  top: 13.35em;
-  }
 }
-@media (max-width: 600px) {
-  .portfolio {
+
+@media (max-width: 640px) {
+  .portfolio, .portrait {
   -moz-column-count:    1;
   -webkit-column-count: 1;
   column-count:         1;
   }
    .prev, .next {
-  top: 15.083em;
+  top: 9.692em;
   }
-  
 }
- @media (min-width: 601px) {
+
+ @media (min-width: 641px) {
 .photos img {
-		max-height: 400px;
+		max-height: 1000px;
 	}
  }
 
