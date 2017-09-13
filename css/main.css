@@ -38,7 +38,7 @@ fieldset, pre, table {
 }
 
 .photos img {
-	max-width: 100%;
+	width: 100%;
 	text-align: center;
 }
 
@@ -89,7 +89,7 @@ ul {
 
 .nav-logo {
 	position: fixed;
-	background-color: rgba(255,255,255,1.00);
+	background-color: rgba(255,255,255,.50);
 	width: 100%;
 	height: 6em;
 	z-index: 200;
@@ -121,7 +121,7 @@ ul {
 	width: 100%;
 	position: fixed;
 	z-index: 200;
-	font-size: .75em;
+	font-size: .875em;
 }
 
 .nav-btn,
@@ -163,7 +163,7 @@ ul {
 	-moz-transition: background-color 300ms ease-in;
 	-webkit-transition: background-color 300ms ease-in;
 	-o-transition: background-color 300ms ease-in;
-	font-weight: 900;
+	font-weight: 500;
 }
 
 .nav a:hover,
@@ -174,7 +174,7 @@ ul {
 
 .nav-top {
 	display: none;
-	top: 8em;
+	top: 6.85em;
 }
 
 .nav-top[data-state="expanded"] {
@@ -315,44 +315,63 @@ ul {
 
 .about {
 	background-color: rgba(255,255,255,1.00);
-	padding: 0em 0 3em;
+	padding: 5em 0 3em;
+	text-align: centre;
+}
+
+.about a,
+.about a:link,
+.about a:visited {
+	color: rgba(0,0,0,1.00);
+	text-decoration: none;
+	transition: color 300ms ease-in;
+	-moz-transition: color 300ms ease-in;
+	-webkit-transition: color 300ms ease-in;
+	-o-transition: color 300ms ease-in;
+	transition: background-color 300ms ease-in;
+	-moz-transition: background-color 300ms ease-in;
+	-webkit-transition: background-color 300ms ease-in;
+	-o-transition: background-color 300ms ease-in;
+}
+
+.about a:hover,
+.about a:active {
+	color: rgba(0,0,0,.5);
 }
 
 .about img {
 	width: 350px;
-	display: block;
 	margin: auto;
-	margin-top: 1em;
+	padding-bottom: 3em;
 }
 
 .about h1 {
 	font-weight: 100;
-	font-size: 3em;
-}
-
-.about h4 {
-	text-align: center;
-	font-size: .875em;
-	padding-bottom: 4em;
 }
 
 .about p {
 	display: block;
 	margin: auto;
-	width: 70%;
-	font-size: 1em;
-	padding-top: 1.5em;
+	font-size: .9em;
 	line-height: 1.5em;
+}
+
+.space {
+	padding-bottom: 1em;
+}
+
+.space1 {
+	padding-bottom: 1.5em;
 }
 
 .intro {
 	text-align: center;
-	padding: 10em 0 3em;
+	padding: .5em 0 .5em;
 }
 
 .intro h1 {
 	font-weight: 300;
-	font-size: 1em;
+	font-size: .9em;
 }
 
 /*-------------------------PORTFOLIO SECTION-------------------------*/
@@ -402,12 +421,12 @@ ul {
 
 .photos li{
 	display: inline-block;
-	margin: 2em 2em 0em;
+	margin: 1.25em 1.25em 0em;
 	text-align: center;
 }
 
 .portfolio, .portrait {
-	margin-top: -1em;
+	margin-top: .8em;
 	text-align: center;
 	line-height: 0;
 	-webkit-column-count: 3;
@@ -666,7 +685,7 @@ ul {
 
 .contact {
 	text-align: center;
-	padding: 6em 0 0;
+	padding: 10em 0 0;
 	background: transparent url('../img/mountains-2.png') no-repeat center center;
 	background-size: cover;
 }
@@ -755,20 +774,27 @@ ul {
 	width: 100%;
 }
 
-@media only screen and (min-width: 43.75em) {
+@media only screen and (min-width: 40em) {
+	.prev, .next {
+		top: 11.457em;
+ 	}
 	.photos li {
-		margin: 3em 0em 0em 3em;
+		margin: 1.25em 0em 0em 1.25em;
 	}
 	
 	.portfolio, .portrait {
-		margin-right: 3em;
-		margin-top: 3em;
+		margin-right: 1.25em;
 	}
 	
 	.portfolio2 {
 		margin-right: 3em;
 	}
+}
 
+@media only screen and (min-width: 62.5em) {
+	.portfolio {
+		margin-top: 3em;
+	}
 	.small-logo {
 		padding: 0;
 		margin: 0;
@@ -776,14 +802,14 @@ ul {
 	
 	.nav-logo img {
 		width: 170px;
-		float: left;
 		padding-top: 1.7em;
+		float: left;
 	}
 	
 	.nav-logo {
-		background-color: rgba(255,255,255,1.00);
+		background-color: rgba(255,255,255,.50);
 		height: 8em;
-		padding-left: 2.5em;
+		float: left;
 	}
 	
 	.main-logo {
@@ -796,8 +822,9 @@ ul {
 		
 	.nav li {
 		display: inline-block;
-		padding-top: 4.1em;
-		padding-left: 1em;
+		padding-top: 2.5em;
+		padding-left: 0.5em;
+		padding-right: 0.5em;
 	}
 	
 	.nav-btn {
@@ -811,7 +838,7 @@ ul {
 	
 	.nav ul {
 		float: right;
-		padding-right: 3.5em;
+		padding-right: 1.25em;
 	}
 	
 	.nav a,
@@ -837,11 +864,11 @@ ul {
 	} 
 	
 	.about img {
-		width: 500px;
+		width: 100%;
 	}
 	
 	.contact {
-		padding: 7em 0 0;
+		padding: 24em 0 0;
 	}
 	
 	.contact img {
@@ -873,16 +900,29 @@ ul {
 	.recent {
 	padding: 8em 0 3em;
 	}
-}
-
-@media only screen and (min-width: 60em) {
-	.nav ul {
+	
+	/*.nav ul {
 		padding-right: 4.5em;
 	}
 	.nav-logo {
 		padding-left: 4em;
-	}
+	}*/
 	
+	.pt1, .pt2 {
+		width: 30%;
+	}
+	.pt1 {
+		padding-left: 19%;
+		padding-right: 1%;
+	}
+	.pt2 {
+		padding-right: 19%;
+		padding-left: 1%;
+	}
+	.about h1, .about p {
+		text-align: left;
+		padding-left: 0em;
+	}
 	.unit-l-1-4 {
 		width: 25%;
 	}
@@ -890,21 +930,19 @@ ul {
 	.unit-l-1-3 {
 		width: 33.33%;
 	}
-	
-	.about p {
-		width: 60%;
-		font-size: 1em;
+	.about {
+		padding: 6.5em 0 8em;
 		text-align: center;
 	}
-}
-
-@media only screen and (min-width: 43.75em) {
-	   .prev, .next {
-  top: 11.457em;
-  }
-}
-
-@media only screen and (min-width: 50em) {
+		
+	.about p {
+		font-size: .875em;
+	}
+	
+	.intro h1 {
+		font-size: .875em;
+	}
+	
 	.mySlides img {
 		max-height: 500px;
 		max-width: 700px;
@@ -937,7 +975,7 @@ ul {
   }
 }
 
- @media (min-width: 641px) {
+ @media (min-width: 5000px) {
 .photos img {
 		max-height: 1000px;
 	}
