@@ -103,7 +103,7 @@ ul {
 	height: 30em;
 	z-index: 200;
 	top: 0em;
-	background: linear-gradient(rgba(255,255,255,.15), rgba(255,255,255,0));
+	background: linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,0));
 }
 
 .nav-logo img {
