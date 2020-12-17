@@ -318,6 +318,15 @@ ul {
   background: rgba(255,255,255,1.00);
 }
 
+/* Menu colour change when hover*/
+#menuToggle input:hover ~ span
+{
+  background-color: #F4A950;
+	transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.5s ease;
+}
+
 /*
  * Ohyeah and the last one should go the other direction
  */
@@ -522,10 +531,7 @@ ul {
 
 .intro {
 	text-align: center;
-}
-
-.pt2 {
-	padding-top: 3em;
+	padding-top: 1em;
 }
 
 .intro h1 {
@@ -710,6 +716,7 @@ ul {
 	
 	.pt2 {
 		text-align: left;
+		padding-top: 2em;
 	}
 	
 	.about img { 
