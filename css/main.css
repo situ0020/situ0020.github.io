@@ -1,15 +1,3 @@
-/*-------------------------
-
-NOTICE: I WILL INCLUDE A TYPE AND GRID SYSTEM FOR THE ACTUAL DEADLINE.
-
-NOTICE: I HAVE UNKNOWN ERRORS DUE TO THE FLEXSLIDER AND VIEWPORTS IN THE CSS. LET ME KNOW IF THERE IS ANY WAY TO FIX IT.
-
-HELP WANTED FOR NAVIGATION SECTION: I'd prefer if the navigation closed when selecting a page, but it just stays open. Cannot figure out how to uncover navigation menu when scrolling to this slideshow section.
-
-HELP WANTED FOR THE PORTFOLIO SECTION: Slideshow is unable to move on mobile. I'm not sure why and have looked it over.
-
--------------------------*/
-
 @-moz-viewport { width: device-width; scale: 1;}
 @-ms-viewport { width: device-width; scale: 1;}
 @-webkit-viewport { width: device-width; scale: 1;}
@@ -23,7 +11,6 @@ html{
 	-o-text-size-adjust: 100%;
 	text-size-adjust: 100%;
 	font-family: 'Source Sans Pro', sans-serif;
-
 	background-color: rgba(255,255,255,1.00);
 }
 
@@ -39,53 +26,39 @@ fieldset, pre, table {
   font-weight: 300;
 }
 
-.photos img {
-	width: 100%;
-	text-align: center;
-}
-
 ul {
 	list-style-type:none;
 	padding: 0;
 }
 
+/*-------------------------404 SECTION-------------------------*/
+
 .error {
 	text-align: center;
 	display: block;
 	margin: auto;
-	padding: 12em 1em 20em;
-	background-color: rgba(255,255,255,1.00);
-	background-image: url("https://www.transparenttextures.com/patterns/broken-noise.png");
+	padding: 22em 1em 26em;
 }
 
 .error h2 {
 	font-weight: 100; 
-	font-size: 3em;
-	font-weight: 300;
+	font-size: 1em;
 	color: rgba(7,7,7,1.00);
-	font-family: 'Caveat Brush', cursive;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding-top: 3em;
+	letter-spacing: 2px;
 }
 
 .error img {
 	margin: auto;
-	width: 200px;
+	width: 600px;
 }
 
-.error h3,
-.error p {
-	font-size: 1em;
-	font-weight: 400;
-	padding: 0em 1em;
-}
 
 .error a {
 	color: rgba(7,7,7,.5);
 }
 
-.error h4 {
-	font-size: 1.25em;
-	padding-top: .5em;
-}
 
 .error a:visited {
 	color: rgba(7,7,7,1.00);
@@ -95,29 +68,30 @@ ul {
 	color: rgba(7,7,7,1.00);
 }
 
-/*-------------------------SMALL LOGO SECTION-------------------------*/
+/*-------------------------LOGO SECTION-------------------------*/
 
-.nav-logo {
+.logo {
 	position: fixed;
 	width: 100%;
 	height: 30em;
 	z-index: 200;
 	top: 0em;
-	background: linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,0));
+	background: linear-gradient(rgba((0,0,0,.2)), rgba(0,0,0,0));
 }
 
-.nav-logo img {
+.logo img {
 	display: block;
 	margin: auto;
-	width: 120px;
+	width: 70px;
 	float: right;
-	opacity: .8;
-	padding-top: 1em;
-	padding-right: .5em;
+	opacity: 1;
+	padding-top: 3em;
+	padding-right: 6em;
+	z-index: 500;
 	
 }
 
-.nav-logo img:hover {
+.logo img:hover {
 	opacity: .25;
 	transition: opacity 500ms ease-in;
 	-moz-transition: opacity 500ms ease-in;
@@ -132,83 +106,6 @@ ul {
 	z-index: 2000;
 }
 
-/*-------Old Nav
-.nav {
-	margin-left: 4em;
-	width: 100%;
-	position: fixed;
-	z-index: 200;
-	font-size: .875em;
-}
-
-.nav-btn,
-.nav-btn:link,
-.nav-btn:visited {
-	position: fixed;
-	top: 20px;
-	left: 15px;
-	height: 60px;
-	width: 60px;
-	background: rgba(7,7,7,0) url('../img/nav-icon.svg') no-repeat right center;
-}
-
-.nav-btn:hover,
-.nav-btn:active {
-	opacity: .25;
-	transition: opacity 500ms ease-in;
-	-moz-transition: opacity 500ms ease-in;
-	-webkit-transition: opacity 500ms ease-in;
-	-ms-transition: opacity 500ms ease-in;
-	-o-transition: opacity 500ms ease-in;
-}
-
-.nav a,
-.nav a:link,
-.nav a:visited {
-	display: inline;
-	padding: .25em;
-	color: rgba(7,7,7,1.00);
-	text-decoration: none;
-	border: none;
-	font-weight: 500;
-}
-
-.nav a:hover,
-.nav a:active {
-	color: #e9c300;
-	transition: color 500ms ease-in;
-	-moz-transition: color 500ms ease-in;
-	-webkit-transition: color 500ms ease-in;
-	-ms-transition: color 500ms ease-in;
-	-o-transition: color 500ms ease-in;
-}
-
-.nav-top {
-	display: none;
-	top: 2.9em;
-	opacity: 0;
-	-webkit-animation: main-logo-fade 1s ease-in-out;
-	-moz-animation: main-logo-fade 1s ease-in-out;
-	-ms-animation: main-logo-fade 1s ease-in-out;
-	-o-animation: main-logo-fade 1s ease-in-out;
-	animation: main-logo-fade 1s ease-in-out;
-}
-
-.nav ul {
-	padding-left: 1em;
-}
-
-.nav li {
-	display: inline-block;
-}
-
-.nav-top[data-state="expanded"] {
-	display: block;
-	opacity: 1;
-}
-
--------*/
-
 .hide-text {
 	display: block;
 	text-indent: 100%;
@@ -216,7 +113,7 @@ ul {
 	overflow: hidden;
 }
 
-.menu a {
+.nav a {
   text-decoration: none;
   color: rgba(255,255,255,1.00);
   text-align: center;
@@ -236,17 +133,22 @@ ul {
   -o-font-smoothing: antialiased;
 }
 
-.menu a:hover {
+.nav a:hover {
   opacity: .3;
-  margin: 0em 0em 0em 1.5em;
+  margin: 0em 0em 0em .5em;
   font-weight: 400;
+}
+
+#nav li {
+  margin: 0 0 0 .87em;
+  padding: .75em 0 .5em 2.5em;
 }
 
 #menuToggle {
   display: block;
   position: fixed;
   top: 65px;
-  left: 36px;
+  left: 55px;
   width: 100%;
   z-index: 300;
   
@@ -283,7 +185,7 @@ ul {
 {
   display: block;
   width: 20px;
-  height: 2px;
+  height: 1px;
   margin-bottom: 5px;
   position: relative;
 
@@ -330,10 +232,10 @@ ul {
  * Make this absolute positioned
  * at the top left of the screen
  */
-#menu
+#nav
 {
   width: 100%;
-  margin: -100px 0 0 -50px;
+  margin: -100px 0 0 -55px;
   padding: 15px;
   padding-left: 48px;
   padding-top: 150px;
@@ -353,11 +255,6 @@ ul {
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
-#menu li {
-  margin: 0 0 0 .87em;
-  padding: .75em 0 .5em .5em;
-}
-
 /*
  * And let's slide it in from the left
  */
@@ -365,178 +262,9 @@ ul {
   transform: none;
 }
 
-
-/*-------------------------HOME SECTION-------------------------*/
-
-.home {
-	text-align: center;
-}
-
-.main-logo {
-	width: 200px;
-	opacity: .5;
-}
-
-.js-main-logo-fade {
-	-webkit-animation: main-logo-fade 3s linear forwards;
-	-moz-animation: main-logo-fade 3s linear forwards;
-	-ms-animation: main-logo-fade 3s linear forwards;
-	-o-animation: main-logo-fade 3s linear forwards;
-	animation: main-logo-fade 3s linear forwards;
-}
-
-@-webkit-keyframes main-logo-fade {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
-@-moz-keyframes main-logo-fade {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
-@-ms-keyframes main-logo-fade {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
-@-o-keyframes main-logo-fade {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
-@keyframes main-logo-fade {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
-.subhead {
-	opacity: 0;
-}
-
-.js-subhead-fade {
-	animation: subhead-fade 1s linear forwards;
-	-webkit-animation: subhead-fade 1s linear forwards;
-	-moz-animation: subhead-fade 1s linear forwards;
-	-ms-animation: subhead-fade 1s linear forwards;
-	-o-animation: subhead-fade 1s linear forwards;
-}
-
-@-webkit-keyframes subhead-fade {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
-@-moz-keyframes subhead-fade {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
-@-ms-keyframes subhead-fade {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
-@-o-keyframes subhead-fade {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
-@keyframes subhead-fade {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
-/*-------------------------ABOUT SECTION-------------------------*/
-
-.about {
-	background-color: rgba(255,255,255,1.00);
-	text-align: centre;
-}
-
-.about a:hover,
-.about a:active {
-	color: rgba(7,7,7,.5);
-}
-
-.about img {
-	width: 100%;
-	margin: auto;
-}
-
-.about h1 {
-	font-weight: 100;
-	padding-top: 1em;
-}
-
-.about p {
-	margin: auto;
-	font-size: .9em;
-	line-height: 1.5em;
-	padding: 0em 1em;
-}
-
-.space1 {
-	padding-bottom: 1.5em;
-}
-
-.intro {
-	text-align: center;
-	padding-top: 1em;
-}
-
-.intro h1 {
-	font-weight: 300;
-	font-size: .9em;
-}
-
 /*-------------------------PORTFOLIO SECTION-------------------------*/
 
-.photos li{
-	text-align: center;
-}
-
-.portfolio, .peopleplaces, .portrait {
+.portfolio {
 	text-align: center;
 	line-height: 0;
 	-webkit-column-count: 3;
@@ -545,78 +273,77 @@ ul {
 	-moz-column-gap: 0px;
 	column-count: 3;
 	column-gap: 0px;
+	padding: 10em 2em 0em;
 }
 
-.portfolio, .peopleplaces {
-	background-color: rgba(255,255,255,1.00);
-}
-
-.portfolio img, .peopleplaces img {
+.portfolio img {
 	width: 100%;
 }
 
-.portfolio h1, .peopleplaces h1 .portrait h1 {
-	background-color: rgba(255,255,255,1.00);
-	color: rgba(7,7,7,1.00);
-	font-size: 1.2em;
-	font-style: italic;
-	padding: .5em;
+.work li {
+	padding: 0em 2em 4em;
+}
+
+/*-------------------------BIO SECTION-------------------------*/
+
+.bio {
+	text-align: centre;
+	padding: 10em 4em;
+	letter-spacing: 2px;
+}
+
+.bio img {
+	width: 100%;
 	margin: auto;
-	margin-bottom: 1.5em;
-	text-align: center;
-	width: 6em;
 }
 
-.portfolio2 {
-	margin-top: -1em;
-	text-align: center;
-	line-height: 0;
+.bio h1, .contact h1 {
+	font-weight: 100;
+	padding-top: 1.75em;
+	padding-bottom: .5em;
+	font-weight: 300;
+	font-size: .9em;
 }
 
-.portfolio2 h1 {
-	background-color: rgba(255,255,255,1.00);
-	color: rgba(7,7,7,1.00);
-	font-size: 1.2em;
-	font-style: italic;
-	padding: .5em;
+.bio p, .contact p {
 	margin: auto;
-	margin-bottom: 1.5em;
+	font-size: .9em;
+	line-height: 1.5em;
+	padding: 0em 1em;
+}
+
+.location {
+	padding-bottom: 1.5em;
+}
+
+.info {
 	text-align: center;
-	width: 6em;
+	padding-top: 1em;
 }
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/*-------------------------CONTACT SECTION-------------------------*/
 
 .contact {
 	text-align: center;
-	padding: 8em 0 2em;
+	letter-spacing: 2px;
+	background-color: rgba(0,0,0,1.00);
+	padding: 2em 0 3em;
+	color: white;
+	margin: 8em 4em;
+}
+
+/*-------------------------FOOTER SECTION-------------------------*/
+
+.footer-social {
+	text-align: center;
+	padding: 8em 0 6em;
 	background-color: rgba(255,255,255,1.00);
 }
-.contact img {
+.footer-social img {
 	width: 70px;
 	opacity: 1;
 	padding: 4em 0 0;
 }
 
-.contact img:hover {
+.footer-social img:hover {
 	opacity: .5;
 	transition: opacity 500ms ease-in;
 	-moz-transition: opacity 500ms ease-in;
@@ -625,31 +352,30 @@ ul {
 	-o-transition: opacity 500ms ease-in;
 }
 
-.contact h1 {
+.footer-social h1 {
 	padding: .75em 0;
 	font-weight: 100;
 	font-style: italic;
 	font-size: 1.5em;
 }
 
-.contact h4 {
+.footer-social h4 {
 	font-size: 1em;
 	padding: .25em 0;
 	font-weight: 300;
 }
 
-.contact h5 {
+.footer-social h5 {
 	font-size: .9em;
 	font-weight: 300;
 }
 
-.contact p {
-	font-size: .7em;
-	padding: 0em 0em 3em;
+.footer-social p {
+	font-size: .75em;
+	padding: 0em 0em 2em;
 	background-color: rgba(255,255,255,0);
 	color: rgba(7,7,7,1.00);
-	font-weight: 700;
-	letter-spacing: .5px;
+	letter-spacing: 3px;
 }
 
 /*-------------------------SOCIAL LINKS SECTION-------------------------*/
@@ -695,62 +421,38 @@ ul {
 	width: 100%;
 }
 
-@media only screen and (min-width: 50em) {
-	#menuToggle {
-		top: 55px;
+@media only screen and (min-width: 70em) {
+	.bio {
+	padding: 10em 4em 15em;
 	}
-	
-	.about {
-		padding-top: 10em;
-		text-align: center;
-	}
-	
-	.pt2 {
-		text-align: left;
-		padding-top: 2em;
-	}
-	
-	.about img { 
-		width: 400px;
+	.bio img {
+		max-width: 500px;
 		float: right;
 	}
-	
-	.about h1, .about p {
-		padding-left: 2em;	
+	.bio h1, .bio p {
+		padding-left: 2em;
 	}
 	
-	.small-logo {
-		padding: 0;
-		margin: 0;
+	.info {
+		text-align: left;
 	}
-	
-	.main-logo {
-		width: 300px;
+}
+
+@media only screen and (min-width: 100em) {
+	.contact {
+	margin: 8em 10em;
 	}
-	
-	.unit-m-1-2 {
-		width: 50%;
+}
+
+@media only screen and (min-width: 50em) {
+	.work li{
+	text-align: center;
 	}
-	
-	.unit-l-1-4 {
-		width: 25%;
-	}
-	
-	.unit-l-1-3 {
-		width: 33.33%;
-	}
+
 }
 
 @media (max-width: 4500px) {
-  .portfolio, .portrait {
-  -moz-column-count:    2;
-  -webkit-column-count: 2;
-  column-count:         2;
-  }
-}
-
-@media (max-width: 1000px) {
-  .peopleplaces {
+  .portfolio, .bio {
   -moz-column-count:    2;
   -webkit-column-count: 2;
   column-count:         2;
@@ -758,14 +460,15 @@ ul {
 }
 
 @media (max-width: 800px) {
-  .portfolio, .portrait {
+  .portfolio {
   -moz-column-count:    1;
   -webkit-column-count: 1;
   column-count:         1;
   }
-  
-  @media (max-width: 800px) {
-  .peopleplaces {
+}
+	
+@media (max-width: 1120px) {
+  .bio {
   -moz-column-count:    1;
   -webkit-column-count: 1;
   column-count:         1;
