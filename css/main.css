@@ -238,7 +238,7 @@ ul {
   margin: -100px 0 0 -55px;
   padding: 15px;
   padding-left: 48px;
-  padding-top: 150px;
+  padding-top: 130px;
   padding-bottom: 300px;
   
   background: linear-gradient(rgba(7,7,7,1.00), rgba(7,7,7,0));
@@ -307,7 +307,7 @@ ul {
 	-moz-column-gap: 0px;
 	column-count: 2;
 	column-gap: 0px;
-	padding: 10em 1.5em 0em;
+	padding: 9em 1.5em 0em;
 }
 
 .portfolio img {
@@ -487,7 +487,12 @@ ul {
 	#nav li {
 		margin: 0 0 0 .87em;
 	}
-	
+	.portfolio {
+		padding: 10em 1.5em 0em;
+	}
+	#nav {
+	padding-top: 150px;
+	}
 }
 @media only screen and (min-width: 70em) {
 	.bio {
