@@ -86,7 +86,7 @@ ul {
 	float: right;
 	opacity: 1;
 	padding-top: 3em;
-	padding-right: 3em;
+	padding-right: 2.5em;
 	z-index: 500;
 	
 }
@@ -140,7 +140,7 @@ ul {
 }
 
 #nav li {
-  margin: 0 0 0 .57em;
+  margin: 0 0 0 .37em;
   padding: .75em 0 .5em 2em;
 }
 
@@ -148,7 +148,7 @@ ul {
   display: block;
   position: fixed;
   top: 65px;
-  left: 22px;
+  left: 14px;
   width: 100%;
   z-index: 300;
   
@@ -307,7 +307,7 @@ ul {
 	-moz-column-gap: 0px;
 	column-count: 2;
 	column-gap: 0px;
-	padding: 10em 2em 0em;
+	padding: 10em 1.5em 0em;
 }
 
 .portfolio img {
@@ -315,7 +315,7 @@ ul {
 }
 
 .work li {
-	padding: 0em 0em 2em;
+	padding: 0em 0em 1.5em;
 }
 
 /*-------------------------BIO SECTION-------------------------*/
