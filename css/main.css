@@ -86,7 +86,7 @@ ul {
 	float: right;
 	opacity: 1;
 	padding-top: 3em;
-	padding-right: 6em;
+	padding-right: 3.5em;
 	z-index: 500;
 	
 }
@@ -135,12 +135,12 @@ ul {
 
 .nav a:hover {
   opacity: .3;
-  margin: 0em 0em 0em .5em;
+  margin: 0em 0em 0em .15em;
   font-weight: 400;
 }
 
 #nav li {
-  margin: 0 0 0 .87em;
+  margin: 0 0 0 .57em;
   padding: .75em 0 .5em 2.5em;
 }
 
@@ -148,7 +148,7 @@ ul {
   display: block;
   position: fixed;
   top: 65px;
-  left: 55px;
+  left: 26px;
   width: 100%;
   z-index: 300;
   
@@ -267,11 +267,11 @@ ul {
 .portfolio {
 	text-align: center;
 	line-height: 0;
-	-webkit-column-count: 3;
+	-webkit-column-count: 2;
 	-webkit-column-gap: 0px;
-	-moz-column-count: 3;
+	-moz-column-count: 2;
 	-moz-column-gap: 0px;
-	column-count: 3;
+	column-count: 2;
 	column-gap: 0px;
 	padding: 10em 2em 0em;
 }
@@ -281,7 +281,7 @@ ul {
 }
 
 .work li {
-	padding: 0em 2em 4em;
+	padding: 0em .25em 2.25em;
 }
 
 /*-------------------------BIO SECTION-------------------------*/
@@ -423,7 +423,7 @@ ul {
 
 @media only screen and (min-width: 70em) {
 	.bio {
-	padding: 10em 4em 15em;
+		padding: 10em 4em 15em;
 	}
 	.bio img {
 		max-width: 500px;
@@ -436,18 +436,34 @@ ul {
 	.info {
 		text-align: left;
 	}
+	.nav a:hover {
+		margin: 0em 0em 0em .5em;
+	}
+
+	#nav li {
+		margin: 0 0 0 .87em;
+	}
 }
 
 @media only screen and (min-width: 100em) {
 	.contact {
-	margin: 8em 10em;
+		margin: 8em 10em;
 	}
 }
 
 @media only screen and (min-width: 50em) {
 	.work li{
-	text-align: center;
+		text-align: center;
+		padding: 0em 2em 4em;
 	}
+	.logo img {
+		padding-right: 6em;
+	}
+	#menuToggle {
+		left: 55px;
+	}
+	
+}
 
 }
 
