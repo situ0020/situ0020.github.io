@@ -86,7 +86,7 @@ ul {
 	float: right;
 	opacity: 1;
 	padding-top: 3em;
-	padding-right: 3.5em;
+	padding-right: 3.25em;
 	z-index: 500;
 	
 }
@@ -148,7 +148,7 @@ ul {
   display: block;
   position: fixed;
   top: 65px;
-  left: 26px;
+  left: 22px;
   width: 100%;
   z-index: 300;
   
@@ -315,7 +315,7 @@ ul {
 }
 
 .work li {
-	padding: 0em .25em 2.25em;
+	padding: 0em 0em 2em;
 }
 
 /*-------------------------BIO SECTION-------------------------*/
