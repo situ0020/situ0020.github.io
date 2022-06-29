@@ -322,7 +322,7 @@ ul {
 
 .bio {
 	text-align: centre;
-	padding: 10em 2em 4em;
+	padding: 8em 1.5em 4em;
 	letter-spacing: 2px;
 	-webkit-column-count: 2;
 	-webkit-column-gap: 0px;
@@ -365,7 +365,7 @@ ul {
 	text-align: center;
 	letter-spacing: 2px;
 	background-color: rgba(0,0,0,1.00);
-	padding: 1em 0 2.5em;
+	padding: .5em 0 2em;
 	color: white;
 	margin: 2em 4em;
 }
@@ -374,7 +374,7 @@ ul {
 
 .footer-social {
 	text-align: center;
-	padding: 8em 0 6em;
+	padding: 8em 0 2.5em;
 	background-color: rgba(255,255,255,1.00);
 }
 .footer-social img {
@@ -476,13 +476,13 @@ ul {
 		padding-right: 6em;
 	}
 	#menuToggle {
-		left: 55px;
-	}
-	.bio {
-		padding: 10em 4em 6em;
+		left: 47px;
 	}
 	.nav a:hover {
 		margin: 0em 0em 0em .5em;
+	}
+	.bio {
+		padding: 9em 3.5em 6em;
 	}
 	#nav li {
 		margin: 0 0 0 .87em;
@@ -496,7 +496,7 @@ ul {
 }
 @media only screen and (min-width: 70em) {
 	.bio {
-		padding: 10em 4em 6em;
+		padding: 15em 4em 10em;
 	}
 	.bio img {
 		max-width: 500px;
