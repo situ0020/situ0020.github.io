@@ -37,7 +37,7 @@ ul {
 	text-align: center;
 	display: block;
 	margin: auto;
-	padding: 22em 1em 26em;
+	padding: 22em 3em 26em;
 }
 
 .error h2 {
@@ -52,7 +52,6 @@ ul {
 .error img {
 	margin: auto;
 	max-width: 600px;
-	margin: 0 1.5em;
 }
 
 
@@ -86,7 +85,7 @@ ul {
 	width: 70px;
 	float: right;
 	opacity: 1;
-	padding-top: 3em;
+	padding-top: 3.5em;
 	padding-right: 2.5em;
 	z-index: 500;
 	
@@ -135,9 +134,8 @@ ul {
 }
 
 .nav a:hover {
-  opacity: .3;
-  margin: 0em 0em 0em .15em;
-  font-weight: 400;
+  margin: 0em 0em 0em .75em;
+  font-weight: 600;
 }
 
 #nav li {
@@ -242,7 +240,7 @@ ul {
   padding-top: 130px;
   padding-bottom: 300px;
   
-  background: linear-gradient(rgba(7,7,7,1.00), rgba(7,7,7,0));
+  background: linear-gradient(rgba(7,7,7,.75), rgba(7,7,7,0));
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
@@ -480,16 +478,16 @@ ul {
 		left: 47px;
 	}
 	.nav a:hover {
-		margin: 0em 0em 0em .5em;
+		margin: 0em 0em 0em .75em;
 	}
 	.bio {
-		padding: 9em 3.5em 6em;
+		padding: 8em 3.5em 6em;
 	}
 	#nav li {
 		margin: 0 0 0 .87em;
 	}
 	.portfolio {
-		padding: 10em 1.5em 0em;
+		padding: 9em 1.5em 0em;
 	}
 	#nav {
 	padding-top: 150px;
