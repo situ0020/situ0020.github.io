@@ -51,7 +51,8 @@ ul {
 
 .error img {
 	margin: auto;
-	width: 600px;
+	max-width: 600px;
+	margin: 0 1.5em;
 }
 
 
