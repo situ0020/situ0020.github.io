@@ -105,16 +105,29 @@
 	</section>
 	<footer id="footer-social" class="footer-social">
 		<p>©2022 katie situ</p> 
-		<div>
+		<!--<div>
 			<ul class="social">
-				<!--<li><a href="https://twitter.com/kvesitu"><i class="fa fa-twitter"></i><span class="hide-text">Twitter</span></a></li>-->
 				<li><a href="https://www.vimeo.com/katiesitu"><img src="img/vimeo.svg" class="fa"><span class="hide-text">Vimeo</span></a></li>
 				<li><a href="https://www.instagram.com/kaesphvto"><img src="img/instagram.svg" class="fa"><span class="hide-text">Instagram</span></a></li>
-			</ul>
+			</ul>-->
 		</div>
 	</footer>
-	
+	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="js/jquery.scrollTo.min.js"></script>
+	<script src="js/jquery.localScroll.min.js"></script>
+	<script src="js/waypoints.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(window).load(function() {
+			$('.flexslider').flexslider({
+			animation: "slide",
+			smoothHeight: "true",
+			touch: "true",
+			keyboard: "true",
+			});
+		});
+	</script>
 	<script src="js/nav.js"></script>
-	
 </body>
 </html>
