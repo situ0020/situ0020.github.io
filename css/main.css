@@ -10,7 +10,7 @@ html{
 	-webkit-text-size-adjust: 100%;
 	-o-text-size-adjust: 100%;
 	text-size-adjust: 100%;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: "Space Mono", monospace;
 	background-color: rgba(255,255,255,1.00);
 }
 
@@ -31,6 +31,31 @@ ul {
 	padding: 0;
 }
 
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 200;
+  font-style: normal;
+	opacity: .75;
+}
+
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.space-mono-regular-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.space-mono-bold-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
 /*-------------------------404 SECTION-------------------------*/
 
 .error {
@@ -43,10 +68,9 @@ ul {
 .error h2 {
 	font-weight: 100; 
 	font-size: 1em;
-	color: rgba(7,7,7,1.00);
-	font-family: 'Source Sans Pro', sans-serif;
+	color: #1C1C1C;
 	padding-top: 3em;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 }
 
 .error img {
@@ -56,16 +80,16 @@ ul {
 
 
 .error a {
-	color: rgba(7,7,7,.5);
+	color: #1C1C1C;
 }
 
 
 .error a:visited {
-	color: rgba(7,7,7,1.00);
+	color: #1C1C1C;
 }
 
 .error a:hover {
-	color: rgba(7,7,7,1.00);
+	color: #1C1C1C;
 }
 
 /*-------------------------LOGO SECTION-------------------------*/
@@ -82,7 +106,7 @@ ul {
 .logo img {
 	display: block;
 	margin: auto;
-	width: 70px;
+	width: 120px;
 	float: right;
 	opacity: 1;
 	padding-top: 3.5em;
@@ -118,9 +142,8 @@ ul {
   color: rgba(255,255,255,1.00);
   text-align: center;
   transition: color 0.8s ease;
-  font-size: .8em;
-  letter-spacing: 6px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-size: .9em;
+  letter-spacing: 2px;
   margin: 0em;
   transition: margin .5s ease-in-out;
   -webkit-transition: margin .5s ease-in-out;
@@ -135,7 +158,7 @@ ul {
 
 .nav a:hover {
   margin: 0em 0em 0em .75em;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 #nav li {
@@ -184,11 +207,11 @@ ul {
 {
   display: block;
   width: 20px;
-  height: 1px;
+  height: 1.5px;
   margin-bottom: 5px;
   position: relative;
 
-  background-color: rgba(7,7,7,.8);
+  background-color: #1C1C1C;
   border-radius: 3px;
   
   z-index: 1;
@@ -237,10 +260,9 @@ ul {
   margin: -100px 0 0 -55px;
   padding: 15px;
   padding-left: 48px;
-  padding-top: 130px;
+  padding-top: 180px;
   padding-bottom: 300px;
-  
-  background: linear-gradient(rgba(7,7,7,.75), rgba(7,7,7,0));
+  background: linear-gradient(rgba(7,7,7,1), rgba(7,7,7,0));
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
@@ -259,40 +281,6 @@ ul {
  */
 #menuToggle input:checked ~ ul {
   transform: none;
-}
-
-/*-------------------------BIO SECTION-------------------------*/
-
-.home {
-	text-align: centre;
-	padding: 10em 4em 4em;
-	letter-spacing: 2px;
-	-webkit-column-count: 2;
-	-webkit-column-gap: 0px;
-	-moz-column-count: 2;
-	-moz-column-gap: 0px;
-	column-count: 2;
-	column-gap: 0px;
-}
-
-.home img {
-	width: 100%;
-	margin: auto;
-}
-
-.home h1 {
-	font-weight: 100;
-	padding-top: 1.75em;
-	padding-bottom: .5em;
-	font-weight: 300;
-	font-size: .9em;
-}
-
-.home p {
-	margin: auto;
-	font-size: .9em;
-	line-height: 1.5em;
-	padding: 0em 1em;
 }
 
 /*-------------------------PORTFOLIO SECTION-------------------------*/
@@ -322,7 +310,7 @@ ul {
 .bio {
 	text-align: centre;
 	padding: 8em 1.5em 4em;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	-webkit-column-count: 2;
 	-webkit-column-gap: 0px;
 	-moz-column-count: 2;
@@ -337,16 +325,17 @@ ul {
 }
 
 .bio h1, .contact h1 {
-	font-weight: 100;
+	color: #1C1C1C;
+	font-weight: 800;
 	padding-top: 1.75em;
 	padding-bottom: .5em;
-	font-weight: 300;
-	font-size: .9em;
+	font-size: .85em;
 }
 
 .bio p, .contact p {
+	color: #1C1C1C;
 	margin: auto;
-	font-size: .9em;
+	font-size: .8em;
 	line-height: 1.5em;
 	padding: 0em 1em;
 }
@@ -362,8 +351,8 @@ ul {
 
 .contact {
 	text-align: center;
-	letter-spacing: 2px;
-	background-color: rgba(0,0,0,1.00);
+	letter-spacing: 1px;
+	background-color: #1C1C1C;
 	padding: .5em 0 2em;
 	color: white;
 	margin: 2em 4em;
@@ -374,11 +363,10 @@ ul {
 .footer-social {
 	text-align: center;
 	padding: 8em 0 2.5em;
-	background-color: rgba(255,255,255,1.00);
 }
 .footer-social img {
 	opacity: 1;
-	padding: 1em 0 1em;
+	padding: .75em 0 .5em;
 }
 
 .footer-social img:hover {
@@ -409,11 +397,10 @@ ul {
 }
 
 .footer-social p {
-	font-size: .75em;
-	padding: 0em 0em 2em;
+	font-size: .85em;
 	background-color: rgba(255,255,255,0);
-	color: rgba(7,7,7,1.00);
-	letter-spacing: 3px;
+	color: #1C1C1C;
+	letter-spacing: 1px;
 }
 
 /*-------------------------SOCIAL LINKS SECTION-------------------------*/
@@ -430,13 +417,14 @@ ul {
 .social li a:link,
 .social li a:visited {
 	display: inline-block;
-	width: 30px;
+	width: 20px;
 }
 
 .social li a:hover,
 .social li a:active,
 .social li a:focus {
-	color: rgba(7,7,7,.5);
+	color: #1C1C1C;
+	opacity: 50%;
 	transition: color 500ms ease-in;
 	-webkit-transition: color 500ms ease-in;
 	-moz-transition: color 500ms ease-in;
@@ -458,12 +446,6 @@ ul {
 	width: 100%;
 }
 
-@media only screen and (min-width: 100em) {
-	.contact {
-		margin: 8em 10em;
-	}
-}
-
 @media only screen and (min-width: 50em) {
 	.work li{
 		text-align: center;
@@ -479,7 +461,7 @@ ul {
 		margin: 0em 0em 0em .75em;
 	}
 	.bio {
-		padding: 8em 3.5em 6em;
+		padding: 8em 3.5em 8em;
 	}
 	#nav li {
 		margin: 0 0 0 .87em;
@@ -488,15 +470,24 @@ ul {
 		padding: 9em 1.5em 0em;
 	}
 	#nav {
-	padding-top: 150px;
+	padding-top: 180px;
+	}
+	.footer-social p {
+		text-align: left;
+		padding-left: 5.6em;
+		font-size: .95em;
+	}
+	.social {
+		text-align: left;
+		padding-left: 5.3em;
 	}
 }
 @media only screen and (min-width: 70em) {
 	.bio {
-		padding: 15em 4em 10em;
+		padding: 15em 10em 10em;
 	}
 	.bio img {
-		max-width: 500px;
+		max-width: 600px;
 		float: right;
 	}
 	.bio h1, .bio p {
