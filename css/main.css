@@ -109,7 +109,7 @@ ul {
 	width: 120px;
 	float: right;
 	opacity: 1;
-	padding-top: 3.5em;
+	padding-top: 3em;
 	padding-right: 2.5em;
 	z-index: 500;
 	
@@ -169,7 +169,7 @@ ul {
 #menuToggle {
   display: block;
   position: fixed;
-  top: 65px;
+  top: 67px;
   left: 14px;
   width: 100%;
   z-index: 300;
